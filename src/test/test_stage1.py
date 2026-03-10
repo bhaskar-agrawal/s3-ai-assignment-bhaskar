@@ -19,7 +19,7 @@ from pathlib import Path
 # Make sure we can import from project root (two levels up from src/test/)
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
-from src.ingest import ingest_documents, print_chunk_stats
+from src.dev.ingest import ingest_documents, print_chunk_stats
 
 INPUT_FILES = []
 

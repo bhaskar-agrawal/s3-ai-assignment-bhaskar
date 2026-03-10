@@ -1,0 +1,32 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+
+# Cache (FAISS index + embeddings — large binary, rebuild from inputs)
+cache/
+
+# Outputs (generated artefacts — not source)
+outputs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Large input files (add your own DRHPs locally, don't commit them)
+inputs/*.pdf
+inputs/*.docx

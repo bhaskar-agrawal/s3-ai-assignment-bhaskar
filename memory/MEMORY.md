@@ -9,7 +9,7 @@ Design doc: `plan.md` (1160 lines, fully up to date).
 | Stage | Status | Notes |
 |-------|--------|-------|
 | 1: Ingest & Parse | ✅ COMPLETE | see `memory/step1.md` |
-| 2: Embed & FAISS  | not started | |
+| 2: Embed & FAISS  | ✅ COMPLETE | see `memory/step2.md` |
 | 3: Retrieve       | not started | |
 | 4: Extract        | not started | |
 | 5: Draft          | not started | |
@@ -22,21 +22,27 @@ Design doc: `plan.md` (1160 lines, fully up to date).
 ## Key files
 ```
 src/
-├── ingest.py            Stage 1 main module
-├── dev/ingest.py        dev copy (keep in sync with src/ingest.py)
-└── test/test_stage1.py  Stage 1 test
+├── dev/ingest.py        Stage 1 module (canonical — src/ingest.py was removed as duplicate)
+├── dev/embed.py         Stage 2 module
+└── test/
+    ├── test_stage1.py   Stage 1 test
+    └── test_stage2.py   Stage 2 test
 inputs/
 ├── sample_drhp.pdf      real 568-page DRHP (BillionBrains, 12MB)
 └── company_description.txt
+cache/
+├── index.faiss          FAISS index (auto-created by Stage 2)
+├── chunks_metadata.json chunk metadata (auto-created by Stage 2)
+└── manifest.json        cache key manifest (auto-created by Stage 2)
 create_sample_input.py   generates synthetic 3-page test PDF
 memory/
 ├── MEMORY.md            this file
-└── step1.md             Stage 1 detailed notes
+├── step1.md             Stage 1 detailed notes
+└── step2.md             Stage 2 detailed notes
 ```
 
 ## User preferences
 - All packages in `.venv/` only — never install globally
 - Keep `src/dev/` and `src/test/` structure (pre-existing convention)
-- Sync all changes to both `src/ingest.py` and `src/dev/ingest.py`
 - Progress output: use `print(..., flush=True)` not logging module
 - Memory files go inside repo at `memory/` so they are visible in the editor
