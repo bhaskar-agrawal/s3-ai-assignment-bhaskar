@@ -11,8 +11,8 @@ Design doc: `plan.md` (1160 lines, fully up to date).
 | 1: Ingest & Parse | ✅ COMPLETE | see `memory/step1.md` |
 | 2: Embed & FAISS  | ✅ COMPLETE | see `memory/step2.md` |
 | 3: Retrieve       | ✅ COMPLETE | see `memory/step3.md` |
-| 4: Extract        | not started | |
-| 5: Draft          | not started | |
+| 4: Extract        | ✅ COMPLETE | see `memory/step4.md` |
+| 5: Draft          | ✅ COMPLETE | see `memory/step5.md` |
 
 ## Environment
 - Python 3.13, Apple Silicon (arm64)
@@ -25,10 +25,16 @@ src/
 ├── dev/ingest.py        Stage 1 module (canonical — src/ingest.py was removed as duplicate)
 ├── dev/embed.py         Stage 2 module
 ├── dev/retrieve.py      Stage 3 module
+├── dev/schemas.py       Stage 4 subsection JSON schemas (all 10)
+├── dev/llm_client.py    Stage 4+5 LLM provider wrapper
+├── dev/extract.py       Stage 4 extraction module
+├── dev/draft.py         Stage 5 drafting module
 └── test/
     ├── test_stage1.py   Stage 1 test
     ├── test_stage2.py   Stage 2 test
-    └── test_stage3.py   Stage 3 test
+    ├── test_stage3.py   Stage 3 test
+    ├── test_stage4.py   Stage 4 test
+    └── test_stage5.py   Stage 5 test
 inputs/
 ├── sample_drhp.pdf      real 568-page DRHP (BillionBrains, 12MB)
 └── company_description.txt

@@ -9,6 +9,7 @@ build/
 
 # Environment
 .env
+.env.example
 
 # Cache (FAISS index + embeddings — large binary, rebuild from inputs)
 cache/
