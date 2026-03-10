@@ -1,0 +1,28 @@
+# PDF processing
+pdfplumber>=0.10.3       # 0.11.x works on Python 3.13
+pymupdf>=1.24.0          # 1.23.x has no arm64 wheel; use 1.24+ for Apple Silicon
+
+# Token counting
+tiktoken>=0.5.2
+
+# Embeddings and vector search
+sentence-transformers==2.3.1
+faiss-cpu==1.7.4
+
+# Numerical processing
+numpy>=1.26.2
+pandas>=2.2                # 2.1.x has no Python 3.13 wheel; use 2.2+
+
+# LLM APIs — install only the ones you need
+anthropic==0.40.0        # Claude (Anthropic)
+openai==1.35.0           # OpenAI or Azure OpenAI
+
+# Gemini: install separately if needed
+# pip install google-generativeai==0.7.0
+
+# Notebook
+jupyter==1.0.0
+ipykernel==6.27.1
+
+# Utilities
+python-dotenv==1.0.0
