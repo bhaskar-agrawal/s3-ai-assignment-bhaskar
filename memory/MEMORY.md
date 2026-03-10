@@ -10,7 +10,7 @@ Design doc: `plan.md` (1160 lines, fully up to date).
 |-------|--------|-------|
 | 1: Ingest & Parse | ✅ COMPLETE | see `memory/step1.md` |
 | 2: Embed & FAISS  | ✅ COMPLETE | see `memory/step2.md` |
-| 3: Retrieve       | not started | |
+| 3: Retrieve       | ✅ COMPLETE | see `memory/step3.md` |
 | 4: Extract        | not started | |
 | 5: Draft          | not started | |
 
@@ -24,9 +24,11 @@ Design doc: `plan.md` (1160 lines, fully up to date).
 src/
 ├── dev/ingest.py        Stage 1 module (canonical — src/ingest.py was removed as duplicate)
 ├── dev/embed.py         Stage 2 module
+├── dev/retrieve.py      Stage 3 module
 └── test/
     ├── test_stage1.py   Stage 1 test
-    └── test_stage2.py   Stage 2 test
+    ├── test_stage2.py   Stage 2 test
+    └── test_stage3.py   Stage 3 test
 inputs/
 ├── sample_drhp.pdf      real 568-page DRHP (BillionBrains, 12MB)
 └── company_description.txt
