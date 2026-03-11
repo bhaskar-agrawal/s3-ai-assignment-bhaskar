@@ -1,7 +1,122 @@
-Acme Manufacturing Limited is a Pune-based manufacturer of precision-engineered automotive
-and industrial components, incorporated in 2010. The company operates two manufacturing
-facilities in Pune with a combined installed capacity of 23,000 MT per annum. Key customers
-include Tata Motors, Mahindra and Mahindra, and Bajaj Auto. The company reported revenue of
-Rs. 487.32 crores and PAT of Rs. 29.15 crores for Fiscal Year 2024. It holds IATF 16949:2016
-and ISO 14001:2015 certifications and is promoted by Mr. Rajesh Kumar Sharma and
-Mrs. Sunita Rajesh Sharma.
+COMPANY OVERVIEW
+----------------
+Zomato Limited is a technology-driven food services company incorporated on January 18, 2010,
+under the Companies Act, 1956, as Foodiebay Online Services Private Limited. The company was
+subsequently renamed to Zomato Media Private Limited in 2010 and then to Zomato Private Limited
+in 2019. It was converted into a public limited company and renamed Zomato Limited on April 21,
+2021. The registered office of the Company is situated at Ground Floor, 12A, 94 Meghdoot,
+Nehru Place, New Delhi - 110019. The Corporate Identification Number (CIN) of the Company is
+U74110DL2010PLC198141.
+
+PROMOTERS AND MANAGEMENT
+--------------------------
+The Company was co-founded by Mr. Deepinder Goyal (Managing Director and Chief Executive Officer)
+and Mr. Pankaj Chaddah. Mr. Deepinder Goyal holds a B.Tech degree from IIT Delhi and has been
+associated with the Company since its inception. Mr. Goyal is the Promoter of the Company. The
+Board of Directors includes Mr. Sanjeev Bikhchandani (Non-Executive Director), Ms. Sutapa
+Banerjee (Independent Director), Mr. Namit Bhatt (Independent Director), Mr. Boyan Radoulovic
+(Non-Executive Nominee Director), and Mr. Gunjan Tilak (Non-Executive Nominee Director).
+Mr. Akshant Goyal serves as the Chief Financial Officer of the Company.
+
+NATURE OF BUSINESS AND PRODUCTS
+---------------------------------
+Zomato Limited operates a technology platform that connects customers, restaurant partners, and
+delivery partners. The Company's primary business segments are:
+
+1. Food Delivery: The Company operates an online food ordering and delivery platform under the
+brand name "Zomato". As of March 31, 2024, the platform had approximately 17.5 million average
+monthly transacting customers. The Company operates in 800+ cities across India.
+
+2. Hyperpure (B2B Supplies): The Company operates Hyperpure, a farm-to-fork ingredient and
+kitchen supplies platform for restaurants. As of March 31, 2024, Hyperpure served over 56,000
+restaurant clients across 10 cities.
+
+3. Quick Commerce (Blinkit): The Company acquired Blinkit (formerly Grofers) in August 2022.
+Blinkit operates a 10-minute grocery and essentials delivery service through a network of dark
+stores. As of March 31, 2024, Blinkit operated 526 dark stores across 25 cities in India.
+
+4. Going Out (Dining Out and Ticketing): The Company operates dining-out and entertainment
+ticketing businesses under the Zomato brand, enabling customers to discover and book restaurant
+tables and purchase event tickets.
+
+FINANCIAL HIGHLIGHTS
+---------------------
+For the Financial Year ended March 31, 2024 (FY2024):
+- Revenue from Operations: Rs. 14,112 crores
+- Adjusted Revenue: Rs. 16,343 crores (including platform fees collected on behalf of restaurants)
+- Gross Order Value (GOV) — Food Delivery: Rs. 32,224 crores (growth of 27% year-on-year)
+- Gross Order Value (GOV) — Blinkit: Rs. 12,469 crores (growth of 97% year-on-year)
+- EBITDA (Adjusted): Rs. 248 crores (Company turned Adjusted EBITDA positive in FY2024)
+- Profit After Tax (PAT): Rs. 351 crores (Company achieved its first full-year net profit in FY2024)
+- Total Equity: Rs. 19,437 crores as of March 31, 2024
+
+For the Financial Year ended March 31, 2023 (FY2023):
+- Revenue from Operations: Rs. 8,621 crores
+- Gross Order Value (GOV) — Food Delivery: Rs. 25,461 crores
+- Loss After Tax: Rs. 971 crores
+
+GEOGRAPHIC PRESENCE
+--------------------
+The Company's food delivery platform operates across 800+ cities in India as of March 31, 2024.
+Blinkit's quick commerce operations are present in 25 cities. Hyperpure B2B operations are
+present in 10 cities. The Company previously had international operations in over 23 countries
+but strategically exited all international food delivery markets by 2022 to focus on the Indian
+market. The Company's registered and principal place of business is in New Delhi, India, with
+operational offices in Gurugram, Haryana.
+
+TECHNOLOGY AND PLATFORM
+------------------------
+The Company operates a mobile-first technology platform available on iOS and Android. The
+Zomato platform facilitates over 1 million food delivery orders per day across India. The
+platform uses machine learning algorithms for restaurant recommendations, delivery time
+estimation, and dynamic pricing. The Company employs a large technology workforce and invests
+significantly in platform reliability and data infrastructure.
+
+KEY BUSINESS STRENGTHS
+------------------------
+- The Company is one of the two dominant food delivery platforms in India, operating alongside
+  Swiggy Limited.
+- The Company has a differentiated quick commerce business (Blinkit) which operates the dark
+  store model for 10-minute delivery of groceries and essentials.
+- The Company's Hyperpure business provides supply chain services directly to restaurant partners,
+  strengthening restaurant relationships and reducing dependency on third-party suppliers.
+- The Company achieved Adjusted EBITDA profitability for the first time in FY2024.
+- The Company has a large and growing customer base with approximately 17.5 million monthly
+  transacting customers as of March 31, 2024.
+
+SUBSIDIARIES AND ASSOCIATES
+-----------------------------
+Material subsidiaries of the Company include:
+- Blinkit Commerce Private Limited (formerly Grofers India Private Limited) — 100% subsidiary
+  operating the quick commerce (Blinkit) business, acquired in August 2022.
+- Zomato Payments Private Limited — a subsidiary holding a Payment Aggregator licence from the
+  Reserve Bank of India (RBI).
+- Hyperpure Supplies Private Limited — subsidiary operating the Hyperpure B2B ingredient
+  supply business for restaurants.
+- Zomato Entertainment Private Limited — subsidiary operating the dining-out ticketing and
+  events business.
+- The Company holds a stake in Shiprocket (a logistics technology company) as an associate.
+
+AWARDS AND CERTIFICATIONS
+--------------------------
+- Zomato Limited is listed on BSE Limited (BSE) and National Stock Exchange of India Limited
+  (NSE) since July 23, 2021, following its Initial Public Offering.
+- The Company has received multiple employer recognition awards including being listed among
+  India's top employers by various industry bodies.
+- The Company's IPO in July 2021 was oversubscribed 38.25 times and was one of the largest
+  technology IPOs in India at that time, raising Rs. 9,375 crores at a valuation of approximately
+  Rs. 64,365 crores.
+
+FUTURE STRATEGY
+----------------
+The Company's key strategic priorities are:
+- Expanding the Blinkit quick commerce network by increasing the number of dark stores to achieve
+  broader coverage in existing cities and enter new cities.
+- Achieving and sustaining profitability across all business segments.
+- Growing the Hyperpure B2B supply chain business to serve a larger number of restaurant partners.
+- Investing in technology infrastructure including machine learning, artificial intelligence, and
+  logistics optimisation to improve delivery times and customer experience.
+- Expanding the Going Out business (dining, ticketing, events) to grow the non-delivery revenue
+  stream and increase platform engagement.
+- Exploring adjacencies in the food and grocery supply chain ecosystem that are capital-efficient
+  and synergistic with the existing platform.

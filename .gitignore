@@ -29,5 +29,4 @@ outputs/
 .idea/
 
 # Large input files (add your own DRHPs locally, don't commit them)
-inputs/*.pdf
-inputs/*.docx
+inputs/*
