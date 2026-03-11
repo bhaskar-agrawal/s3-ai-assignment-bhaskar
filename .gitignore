@@ -28,5 +28,4 @@ outputs/
 .vscode/
 .idea/
 
-# Large input files (add your own DRHPs locally, don't commit them)
-inputs/*
+# Input files are committed for reference
