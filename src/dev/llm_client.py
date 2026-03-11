@@ -179,7 +179,7 @@ class LLMClient:
     def _openai_extract(self, prompt: str) -> dict:
         response = self._client.chat.completions.create(
             model=self._model,
-            max_tokens=1500,
+            max_completion_tokens=1500,
             response_format={"type": "json_object"},
             messages=[{"role": "user", "content": prompt}],
         )
@@ -188,7 +188,7 @@ class LLMClient:
     def _openai_draft(self, prompt: str) -> str:
         response = self._client.chat.completions.create(
             model=self._model,
-            max_tokens=1200,
+            max_completion_tokens=1500,
             messages=[{"role": "user", "content": prompt}],
         )
         return response.choices[0].message.content

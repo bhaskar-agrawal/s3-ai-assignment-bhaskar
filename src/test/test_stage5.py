@@ -2,7 +2,12 @@
 Stage 5 test — Draft.
 
 Run from project root:
-    python src/test/test_stage5.py
+    python src/test/test_stage5.py [input_dir]
+
+    input_dir  Path to a directory containing input files (default: inputs/).
+               Rules for files in that directory:
+                 - sample_drhp.pdf  (or sample_drhp.txt)  → reference DRHP (style + structure)
+                 - all other .pdf / .txt / .md files       → context documents for the new draft
 
 Requires LLM_PROVIDER + API key in .env
 
@@ -34,7 +39,7 @@ if env_path.exists():
 
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
-from src.dev.ingest import ingest_documents
+from src.dev.ingest import ingest_documents, tables_to_chunks
 from src.dev.embed import build_index, _load_model
 from src.dev.retrieve import retrieve_all
 from src.dev.extract import extract_all
@@ -42,26 +47,61 @@ from src.dev.draft import draft_subsection, draft_all
 from src.dev.llm_client import LLMClient
 
 # ---------------------------------------------------------------------------
-# Setup: ingest → embed → retrieve → extract (reuse cache + previous log)
+# Resolve input directory (CLI arg or default "inputs/")
 # ---------------------------------------------------------------------------
-INPUT_FILES = []
-for name in ["inputs/sample_drhp.pdf", "inputs/sample_drhp.txt"]:
-    if Path(name).exists():
-        INPUT_FILES.append(name)
-        break
+SUPPORTED_EXTS = {".pdf", ".txt", ".md"}
 
-if Path("inputs/company_drhp.pdf").exists():
-    INPUT_FILES.append("inputs/company_drhp.pdf")
-
-if not INPUT_FILES:
-    print("ERROR: No input file found.")
+input_dir = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("inputs")
+if not input_dir.is_dir():
+    print(f"ERROR: input directory not found: {input_dir}")
     sys.exit(1)
 
-DRHP_SOURCE = Path(INPUT_FILES[0]).name
+# Reference DRHP: sample_drhp.pdf preferred, then sample_drhp.txt (optional)
+DRHP_FILE: Path | None = None
+for candidate in ["sample_drhp.pdf", "sample_drhp.txt"]:
+    p = input_dir / candidate
+    if p.exists():
+        DRHP_FILE = p
+        break
 
+# All supported files in the directory
+all_files = sorted(
+    f for f in input_dir.iterdir()
+    if f.is_file() and f.suffix.lower() in SUPPORTED_EXTS
+)
+
+if DRHP_FILE is None:
+    # No reference DRHP — treat ALL files as context documents
+    print(f"WARNING: No sample_drhp.pdf found in {input_dir}/")
+    print("  Drafting without style reference — standard DRHP language will be used.")
+    context_files = all_files
+    INPUT_FILES   = [str(f) for f in context_files]
+    DRHP_SOURCE   = None
+else:
+    context_files = [f for f in all_files if f.name != DRHP_FILE.name]
+    INPUT_FILES   = [str(DRHP_FILE)] + [str(f) for f in context_files]
+    DRHP_SOURCE   = DRHP_FILE.name
+
+if not INPUT_FILES:
+    print(f"ERROR: No input files found in {input_dir}/")
+    sys.exit(1)
+
+if not context_files and DRHP_FILE:
+    print(f"WARNING: No context documents found — draft will be based on the reference DRHP only.")
+
+print(f"Input directory : {input_dir.resolve()}")
+print(f"Reference DRHP  : {DRHP_FILE.name if DRHP_FILE else '(none — no style reference)'}")
+print(f"Context files   : {[f.name for f in context_files] or '(none)'}")
+print()
+
+# ---------------------------------------------------------------------------
+# Setup: ingest → embed → retrieve → extract (reuse cache + previous log)
+# ---------------------------------------------------------------------------
 print(f"Ingesting: {INPUT_FILES}")
 chunks, tables = ingest_documents(INPUT_FILES)
-print(f"  {len(chunks)} chunks\n")
+table_chunks = tables_to_chunks(tables, start_chunk_id=len(chunks))
+chunks = chunks + table_chunks
+print(f"  {len(chunks)} chunks ({len(table_chunks)} from tables)\n")
 
 print("Building/loading FAISS index ...")
 index, metadata = build_index(chunks, source_files=INPUT_FILES, force_rebuild=False)
@@ -90,17 +130,21 @@ extraction_log = extract_all(retrieve_results, client, input_documents=INPUT_FIL
 print()
 
 # ---------------------------------------------------------------------------
-# Spot-test: single subsection draft
+# Spot-test: single subsection draft (use first available subsection)
 # ---------------------------------------------------------------------------
+SPOT_TEST_PREFERRED = "Corporate History & Background"
+available_subsections = list(extraction_log["subsections"].keys())
+spot_sub = SPOT_TEST_PREFERRED if SPOT_TEST_PREFERRED in available_subsections else available_subsections[0]
+
 print("=" * 60)
-print("SPOT-TEST: Corporate History & Background")
+print(f"SPOT-TEST: {spot_sub}")
 print("=" * 60)
 
-corp_facts  = extraction_log["subsections"]["Corporate History & Background"]
-corp_retrieve = next(r for r in retrieve_results if r["subsection"] == "Corporate History & Background")
+corp_facts    = extraction_log["subsections"][spot_sub]
+corp_retrieve = next(r for r in retrieve_results if r["subsection"] == spot_sub)
 
 corp_draft = draft_subsection(
-    "Corporate History & Background",
+    spot_sub,
     corp_facts,
     corp_retrieve["style_chunks"],
     client,
@@ -168,10 +212,10 @@ else:
     else:
         print(f"✓  spot-test draft word count: {word_count}")
 
-auto_tags = re.findall(r"\[AUTO: page=\S+\]", corp_draft)
+auto_tags = re.findall(r"\[AUTO: doc=\S+, page=\S+\]", corp_draft)
 if not auto_tags:
     # Flexible — LLM may format tags slightly differently; just warn
-    print("  ⚠  no [AUTO: page=X] tags in spot-test draft — check prompt adherence")
+    print("  ⚠  no [AUTO: doc=X, page=Y] tags in spot-test draft — check prompt adherence")
 else:
     print(f"✓  {len(auto_tags)} [AUTO] tag(s) found in spot-test draft")
 

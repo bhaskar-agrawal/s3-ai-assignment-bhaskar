@@ -393,6 +393,46 @@ def _detect_section_header(text: str) -> Optional[str]:
     return match.group(0).strip()[:60] if match else None
 
 
+def tables_to_chunks(tables: List[Dict], start_chunk_id: int = 0) -> List[Dict]:
+    """
+    Convert extracted table records into text chunks suitable for embedding.
+
+    Each table is serialised as a markdown table string so it can be semantically
+    searched alongside text chunks. Tables with fewer than 2 rows of data are skipped.
+
+    Args:
+        tables:         List of table dicts from ingest_documents() —
+                        each has keys: table (DataFrame), page, source.
+        start_chunk_id: Chunk ID offset so IDs don't collide with text chunk IDs.
+
+    Returns:
+        List of chunk dicts with the same schema as text chunks plus chunk_type="table".
+    """
+    chunks = []
+    for i, record in enumerate(tables):
+        df: pd.DataFrame = record.get("table")
+        if df is None or df.empty or len(df) < 1:
+            continue
+        try:
+            md = df.to_markdown(index=False)
+        except Exception:
+            # Fallback: plain CSV if markdown fails (e.g. missing tabulate)
+            md = df.to_csv(index=False)
+        if not md or not md.strip():
+            continue
+        tokens = len(_tokenizer.encode(md))
+        chunks.append({
+            "chunk_id": start_chunk_id + i,
+            "text": md,
+            "page": record.get("page", 0),
+            "source": record.get("source", ""),
+            "token_count": tokens,
+            "section_header": "",
+            "chunk_type": "table",
+        })
+    return chunks
+
+
 def print_chunk_stats(chunks: List[Dict], tables: List[Dict]) -> None:
     """Print a summary of ingestion results."""
     print(f"Total chunks : {len(chunks)}")

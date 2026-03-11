@@ -179,24 +179,30 @@ def _build_draft_prompt(
 
 SUBSECTION TO DRAFT: {subsection_name}
 
---- STYLE REFERENCE (from an actual DRHP — match this tone and structure exactly) ---
+--- STYLE REFERENCE (tone and register only — do NOT use any facts from this section) ---
 {style_text}
 --- END STYLE REFERENCE ---
 
---- FACTS TO USE (extracted and verified from source documents) ---
+--- FACTS TO USE (sole source of truth — use ONLY these facts) ---
 {facts_text}
 --- END FACTS ---
 
-DRAFTING INSTRUCTIONS:
-1. Write in formal DRHP disclosure style — match the style reference exactly in tone, register, and sentence structure
-2. Use passive voice and third person throughout ("The Company was incorporated...", "Our Company operates...")
-3. Use defined terms in ALL CAPS where appropriate (e.g., "Equity Shares", "Promoters", "Subsidiaries")
-4. Do NOT use marketing language, superlatives, or promotional tone (no "leading", "best-in-class", "innovative")
-5. Do NOT invent facts not present in the FACTS section above
-6. For every fact you use, append the tag immediately after the sentence: [AUTO: page={{page_number}}] — use the page number from the Source annotation
-7. For every [MISSING] field listed above, include the placeholder: [MISSING — HUMAN REVIEW REQUIRED: {{field_name}}]
-8. Target length: 400–600 words in paragraph format
-9. No bullet points, no numbered lists — continuous prose paragraphs only
+CRITICAL DRAFTING INSTRUCTIONS:
+
+1. STRICT FACTUAL ISOLATION: You MUST NOT copy any company names, dates, locations, numbers, products, or business activities from the STYLE REFERENCE. The style reference is strictly to show you the formal tone, sentence cadence, and legal register.
+
+2. SOURCE OF TRUTH: Use ONLY the information provided in the FACTS TO USE section above. If a fact is not in the FACTS section, DO NOT invent it and DO NOT pull it from the style reference.
+
+3. INLINE CITATIONS (MANDATORY): For EVERY single fact you use, append its exact citation tag IMMEDIATELY after the sentence that contains it, before the next sentence starts.
+   Correct: "The Company was incorporated in Maharashtra [AUTO: doc=roc.pdf, page=2]. It currently operates two manufacturing facilities [AUTO: doc=desc.txt, page=1]."
+   Wrong: clustering tags at the end of a paragraph.
+   Use the exact filename and page number from the Source annotation in the FACTS section.
+
+4. MISSING INFORMATION: For every [MISSING] field listed in the FACTS section, integrate the exact placeholder into the prose: [MISSING — HUMAN REVIEW REQUIRED: {{field_name}}].
+
+5. ZERO MARKETING LANGUAGE: Write in a dry, formal, legalistic, and objective tone. Completely ban subjective adjectives. Do NOT use words like "robust", "cutting-edge", "seamless", "leading", "innovative", "ecosystem", "best-in-class", or "strategic".
+
+6. FORMAT: Target 400–600 words in continuous prose paragraphs. No bullet points, no numbered lists. Use passive voice and third person ("The Company..."). Use defined terms in ALL CAPS (e.g., "Equity Shares", "Promoters", "Subsidiaries").
 
 Write the subsection now:"""
 

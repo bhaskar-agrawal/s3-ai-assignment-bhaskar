@@ -49,6 +49,7 @@ def build_index(
     chunks: List[Dict],
     source_files: Optional[List[str]] = None,
     force_rebuild: bool = False,
+    model=None,
 ) -> Tuple[object, List[Dict]]:
     """
     Build (or load from cache) a FAISS IndexFlatIP over all chunk embeddings.
@@ -80,7 +81,8 @@ def build_index(
     elif not source_files:
         print("[embed] No source_files provided — skipping cache lookup, building fresh ...", flush=True)
 
-    model = _load_model()
+    if model is None:
+        model = _load_model()
     embeddings, metadata = _embed_all(chunks, model)
     index = _build_faiss_index(embeddings)
     _save_to_cache(index, metadata, source_files)

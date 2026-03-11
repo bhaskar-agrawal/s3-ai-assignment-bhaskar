@@ -133,31 +133,39 @@ def detect_subsections_from_drhp(
         print("[retrieve] No reference DRHP chunks found — using default subsections", flush=True)
         return SUBSECTIONS
 
-    # Locate the Business Overview section — skip TOC occurrences (lines with dot leaders)
-    bo_keywords = {"business overview", "our business", "business description"}
-    start_idx = None
+    # Locate the Business Overview section body (not the TOC reference to it).
+    # Heuristic: prefer a chunk whose page is in the latter 85% of the document,
+    # and whose matching line has no dot leaders (not a TOC entry).
+    bo_keywords  = {"business overview", "our business", "business description"}
+    max_page     = max((c.get("page", 0) for c in drhp_chunks), default=1)
+    min_bo_page  = int(max_page * 0.10)   # skip first 10% — that's where TOC lives
+
+    start_idx       = None
+    toc_fallback    = None
     for i, chunk in enumerate(drhp_chunks):
-        text = chunk.get("text", "")
+        text       = chunk.get("text", "")
         text_lower = text.lower()
-        if any(kw in text_lower for kw in bo_keywords):
-            # Prefer a non-TOC chunk: the matching line should not have dot leaders
-            matching_lines = [
-                ln for ln in text.splitlines()
-                if any(kw in ln.lower() for kw in bo_keywords)
-            ]
-            is_toc = any(".." in ln for ln in matching_lines)
-            if not is_toc:
-                start_idx = i
-                break
-            # Keep as fallback if we find nothing better
-            if start_idx is None:
-                start_idx = i
+        page       = chunk.get("page", 0)
+        if not any(kw in text_lower for kw in bo_keywords):
+            continue
+        matching_lines = [ln for ln in text.splitlines()
+                          if any(kw in ln.lower() for kw in bo_keywords)]
+        is_toc = any(".." in ln for ln in matching_lines)
+        if not is_toc and page >= min_bo_page:
+            start_idx = i
+            break
+        if toc_fallback is None:
+            toc_fallback = i   # remember first TOC hit as last resort
+
+    if start_idx is None:
+        start_idx = toc_fallback   # fall back to TOC hit if nothing better found
 
     if start_idx is None:
         print("[retrieve] 'BUSINESS OVERVIEW' not found in reference DRHP — using default subsections", flush=True)
         return SUBSECTIONS
 
-    # Scan up to 40 chunks after the Business Overview marker for headings
+    # Scan up to 40 chunks after the Business Overview marker for headings.
+    # A valid heading: all-caps, 2–79 chars, no dot leaders, first word >= 4 chars.
     scan_chunks = drhp_chunks[start_idx: start_idx + 40]
     heading_re  = re.compile(r'^[A-Z][A-Z\s&,\-\(\)\./\']{2,79}$')
     skip_words  = {"THE", "AND", "IN", "OF", "TO", "A", "AN", "FOR", "BY", "OR", "ON", "AT"}
@@ -166,10 +174,12 @@ def detect_subsections_from_drhp(
     for chunk in scan_chunks:
         for line in chunk.get("text", "").splitlines():
             line = line.strip()
+            words = line.split()
             if (heading_re.match(line)
-                    and ".." not in line          # skip TOC dot-leader lines
+                    and ".." not in line              # no TOC dot leaders
                     and line not in skip_words
-                    and len(line.split()) >= 2
+                    and len(words) >= 2
+                    and len(words[0]) >= 4            # first word must be complete (not "L", "NG", "V")
                     and line not in detected):
                 detected.append(line)
 
