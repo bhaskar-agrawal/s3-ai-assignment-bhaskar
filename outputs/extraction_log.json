@@ -1,0 +1,742 @@
+{
+  "generated_at": "2026-03-11T01:47:48Z",
+  "input_documents": [
+    "inputs/sample_drhp.pdf",
+    "inputs/1626944616560.pdf",
+    "inputs/Eternal_Shareholders_Letter_Q1FY26_Results.pdf",
+    "inputs/company_description.txt",
+    "inputs/d9c290cd23764a09789769c39682276a_1746094084.pdf"
+  ],
+  "subsections": {
+    "Corporate History & Background": {
+      "company_name": {
+        "value": "Zomato Limited",
+        "source_page": 80,
+        "source_file": "1626944616560.pdf"
+      },
+      "cin": {
+        "value": "U93030DL2010PLC198141",
+        "source_page": 80,
+        "source_file": "1626944616560.pdf"
+      },
+      "incorporation_date": {
+        "value": "January 18, 2010",
+        "source_page": 80,
+        "source_file": "1626944616560.pdf"
+      },
+      "incorporation_state": {
+        "value": "Delhi",
+        "source_page": 80,
+        "source_file": "1626944616560.pdf"
+      },
+      "registered_office_address": {
+        "value": "Ground Floor, 12A, 94 Meghdoot, Nehru Place, New Delhi 110 019",
+        "source_page": 80,
+        "source_file": "1626944616560.pdf"
+      },
+      "original_business_activity": {
+        "value": "To develop, own, run, administer, operate, facilitate information about restaurants, caterers, and other food and beverage businesses.",
+        "source_page": 168,
+        "source_file": "1626944616560.pdf"
+      },
+      "key_milestones": {
+        "value": [
+          {
+            "milestone": "Incorporation as DC Foodiebay Online Services Private Limited",
+            "date": "January 18, 2010",
+            "source_page": 80,
+            "source_file": "1626944616560.pdf"
+          },
+          {
+            "milestone": "Name changed to Zomato Media Private Limited",
+            "date": "May 25, 2012",
+            "source_page": 80,
+            "source_file": "1626944616560.pdf"
+          },
+          {
+            "milestone": "Name changed to Zomato Private Limited",
+            "date": "April 22, 2020",
+            "source_page": 80,
+            "source_file": "1626944616560.pdf"
+          },
+          {
+            "milestone": "Converted to a public limited company and changed to Zomato Limited",
+            "date": "April 9, 2021",
+            "source_page": 80,
+            "source_file": "1626944616560.pdf"
+          }
+        ],
+        "source_page": null,
+        "source_file": null
+      },
+      "name_changes": {
+        "value": [
+          {
+            "old_name": "DC Foodiebay Online Services Private Limited",
+            "new_name": "Zomato Media Private Limited",
+            "date": "May 25, 2012",
+            "source_page": 80,
+            "source_file": "1626944616560.pdf"
+          },
+          {
+            "old_name": "Zomato Media Private Limited",
+            "new_name": "Zomato Private Limited",
+            "date": "April 22, 2020",
+            "source_page": 80,
+            "source_file": "1626944616560.pdf"
+          },
+          {
+            "old_name": "Zomato Private Limited",
+            "new_name": "Zomato Limited",
+            "date": "April 9, 2021",
+            "source_page": 80,
+            "source_file": "1626944616560.pdf"
+          }
+        ],
+        "source_page": null,
+        "source_file": null
+      },
+      "other_facts": [],
+      "_meta": {
+        "subsection": "Corporate History & Background",
+        "chunks_used": 8,
+        "missing_fields": [],
+        "elapsed_s": 9.74
+      }
+    },
+    "Nature of Business & Products": {
+      "business_description": {
+        "value": "The Group provides services in food ordering and delivery, Hyperpure supplies (B2B business), quick commerce, and dining-out and entertainment ticketing services.",
+        "source_page": 35,
+        "source_file": "d9c290cd23764a09789769c39682276a_1746094084.pdf"
+      },
+      "products_and_services": [
+        "India food ordering and delivery",
+        "Hyperpure supplies (B2B business)",
+        "Quick commerce",
+        "Dining-out services",
+        "Entertainment ticketing services"
+      ],
+      "revenue_segments": [
+        {
+          "segment": "India food ordering and delivery",
+          "revenue": {
+            "March 31, 2025": 2054,
+            "December 31, 2024": 2072,
+            "March 31, 2024": 1
+          }
+        },
+        {
+          "segment": "Hyperpure supplies (B2B business)",
+          "revenue": {
+            "March 31, 2025": 1840,
+            "December 31, 2024": 1671,
+            "March 31, 2024": null
+          }
+        },
+        {
+          "segment": "Quick commerce",
+          "revenue": {
+            "March 31, 2025": 1709,
+            "December 31, 2024": 1399,
+            "March 31, 2024": null
+          }
+        },
+        {
+          "segment": "Going Out",
+          "revenue": {
+            "March 31, 2025": 229,
+            "December 31, 2024": 259,
+            "March 31, 2024": null
+          }
+        },
+        {
+          "segment": "All other segments (Residual)",
+          "revenue": {
+            "March 31, 2025": 1,
+            "December 31, 2024": null,
+            "March 31, 2024": null
+          }
+        }
+      ],
+      "industry_sector": null,
+      "key_customers": [],
+      "other_facts": [
+        {
+          "field_name": "additional_fact",
+          "value": "Revenue from operations for the quarter ended June 30, 2025, totals 7167 million.",
+          "source_page": null,
+          "source_file": null
+        },
+        {
+          "field_name": "additional_fact",
+          "value": "The Group's entertainment ticketing business includes ticketing services for customers and event management.",
+          "source_page": null,
+          "source_file": null
+        }
+      ],
+      "_meta": {
+        "subsection": "Nature of Business & Products",
+        "chunks_used": 8,
+        "missing_fields": [],
+        "elapsed_s": 6.57
+      }
+    },
+    "Manufacturing & Operations": {
+      "manufacturing_locations": {
+        "value": [],
+        "source_page": null,
+        "source_file": null
+      },
+      "installed_capacity": {
+        "value": null,
+        "source_page": null,
+        "source_file": null
+      },
+      "utilization_rate": {
+        "value": null,
+        "source_page": null,
+        "source_file": null
+      },
+      "key_raw_materials": {
+        "value": [],
+        "source_page": null,
+        "source_file": null
+      },
+      "employees_count": {
+        "value": null,
+        "source_page": null,
+        "source_file": null
+      },
+      "other_facts": [
+        {
+          "field_name": "fact",
+          "value": "Our delivery partner network is integral to our operations, offering delivery services through our technology platforms.",
+          "source_page": 119,
+          "source_file": "1626944616560.pdf"
+        },
+        {
+          "field_name": "fact",
+          "value": "We have an in-house team of experienced engineers managing our technology infrastructure, which is crucial for operational efficiency.",
+          "source_page": 119,
+          "source_file": "1626944616560.pdf"
+        },
+        {
+          "field_name": "fact",
+          "value": "We invest significantly in our delivery infrastructure to expand capabilities, attract delivery partners, and enhance customer reach.",
+          "source_page": 118,
+          "source_file": "1626944616560.pdf"
+        },
+        {
+          "field_name": "fact",
+          "value": "Key costs incurred in respect of our delivery infrastructure include incentives, support expenses such as call center operations, and transportation charges.",
+          "source_page": 118,
+          "source_file": "1626944616560.pdf"
+        },
+        {
+          "field_name": "fact",
+          "value": "Our historical investments have supported category creation and organic growth initiatives.",
+          "source_page": 119,
+          "source_file": "1626944616560.pdf"
+        }
+      ],
+      "_meta": {
+        "subsection": "Manufacturing & Operations",
+        "chunks_used": 8,
+        "missing_fields": [
+          "manufacturing_locations",
+          "installed_capacity",
+          "utilization_rate",
+          "key_raw_materials",
+          "employees_count"
+        ],
+        "elapsed_s": 6.01
+      }
+    },
+    "Key Business Strengths": {
+      "strengths": {
+        "value": [
+          "Strong network effects driven by our content and technology.",
+          "Widespread and on-demand hyperlocal delivery.",
+          "Technology and product-first approach to business.",
+          "Recognized consumer brand across the market."
+        ],
+        "source_page": 124,
+        "source_file": "1626944616560.pdf"
+      },
+      "other_facts": [
+        {
+          "field_name": "additional_fact",
+          "value": "The business has grown at 150%+ YoY in Q1, indicating significant potential for long-term margins.",
+          "source_page": null,
+          "source_file": null
+        },
+        {
+          "field_name": "additional_fact",
+          "value": "Core restaurant supply business has also shown growth of about 35-40% YoY with Adjusted EBITDA margins.",
+          "source_page": null,
+          "source_file": null
+        },
+        {
+          "field_name": "additional_fact",
+          "value": "Investments in new offerings such as inter-city deliveries and 4P logistics services can drive higher customer engagement.",
+          "source_page": null,
+          "source_file": null
+        },
+        {
+          "field_name": "additional_fact",
+          "value": "Rotational leadership model is being followed to bring structural agility and resilience.",
+          "source_page": null,
+          "source_file": null
+        },
+        {
+          "field_name": "additional_fact",
+          "value": "The company is building a wider, deeper leadership pipeline for future growth.",
+          "source_page": null,
+          "source_file": null
+        }
+      ],
+      "_meta": {
+        "subsection": "Key Business Strengths",
+        "chunks_used": 8,
+        "missing_fields": [],
+        "elapsed_s": 2.97
+      }
+    },
+    "Promoters & Management": {
+      "promoters": {
+        "value": [],
+        "source_page": null,
+        "source_file": null
+      },
+      "promoter_group_holding": {
+        "value": null,
+        "source_page": null,
+        "source_file": null
+      },
+      "managing_director": {
+        "value": {
+          "name": "Deepinder Goyal",
+          "designation": "Managing Director and Chief Executive Officer",
+          "appointment_date": "March 24, 2021",
+          "term": "up to March 23, 2026",
+          "age": 38,
+          "occupation": "Entrepreneur",
+          "address": "B-1/11, DLF Phase 1, Sikanderpur Ghoshi (68)",
+          "date_of_birth": "January 26, 1983",
+          "DIN": "02613583"
+        },
+        "source_page": 198,
+        "source_file": "1626944616560.pdf"
+      },
+      "key_managerial_personnel": {
+        "value": [
+          {
+            "name": "Sandhya Sethia",
+            "designation": "Company Secretary",
+            "appointment_date": "January 10, 2019",
+            "age": null,
+            "occupation": null,
+            "address": null,
+            "other_details": null
+          },
+          {
+            "name": "Damini Bhalla",
+            "designation": "General Counsel",
+            "appointment_date": null,
+            "age": null,
+            "occupation": null,
+            "address": null,
+            "other_details": null
+          },
+          {
+            "name": "Akriti Chopra",
+            "designation": "Co-founder and Chief People Officer",
+            "appointment_date": null,
+            "age": null,
+            "occupation": null,
+            "address": null,
+            "other_details": null
+          },
+          {
+            "name": "Gaurav Gupta",
+            "designation": "Co-founder and the Head",
+            "appointment_date": null,
+            "age": null,
+            "occupation": null,
+            "address": null,
+            "other_details": null
+          }
+        ],
+        "source_page": 210,
+        "source_file": "1626944616560.pdf"
+      },
+      "board_of_directors": {
+        "value": [
+          {
+            "name": "Kaushik Dutta",
+            "designation": "Chairman and Independent Director",
+            "period": "March 1, 2021 - February 28, 2026",
+            "age": 59,
+            "occupation": "Entrepreneur",
+            "address": "A-843, Lavy Pinto Block, Asiad Games Village, Delhi 110 049",
+            "DIN": "03328890",
+            "date_of_birth": "May 1, 1962"
+          },
+          {
+            "name": "Sanjeev Bikhchandani",
+            "designation": "Non-Executive Director",
+            "period": "April 13, 2018 - Present",
+            "age": null,
+            "occupation": "Entrepreneur",
+            "address": "N-42, Ground Floor, Panchsheel Park, Malviya Nagar, Delhi 110 017",
+            "DIN": null,
+            "date_of_birth": null
+          },
+          {
+            "name": "Namita Gupta",
+            "designation": "Independent Director",
+            "period": "March 1, 2021 - February 28, 2026",
+            "age": 43,
+            "occupation": "Entrepreneur",
+            "address": "E-71, DLF Belaire, DLF Phase - 5, Golf Course 002",
+            "DIN": "07337772",
+            "date_of_birth": "July 19, 1978"
+          },
+          {
+            "name": "Sutapa Banerjee",
+            "designation": "Independent Director",
+            "period": "April 12, 2021 - April 11, 2026",
+            "age": 56,
+            "occupation": "Independent Consultant",
+            "address": "3003 A and B, 30th Floor, Springs I, G.D. Ambekar Road, Dadar, Mumbai 400 014",
+            "DIN": "02844650",
+            "date_of_birth": "March 24, 1965"
+          }
+        ],
+        "source_page": 198,
+        "source_file": "1626944616560.pdf"
+      },
+      "other_facts": [
+        {
+          "field_name": "fact",
+          "value": "None of the Directors are related to each other or to any Key Managerial Personnel.",
+          "source_page": 201,
+          "source_file": "1626944616560.pdf"
+        },
+        {
+          "field_name": "fact",
+          "value": "There are two Non-Executive Nominee Directors and five Independent Directors on the Board.",
+          "source_page": 198,
+          "source_file": "1626944616560.pdf"
+        },
+        {
+          "field_name": "fact",
+          "value": "There is no contingent or deferred compensation accrued for the Directors.",
+          "source_page": 202,
+          "source_file": "1626944616560.pdf"
+        },
+        {
+          "field_name": "fact",
+          "value": "None of the Key Managerial Personnel have been selected as nominees by major Shareholders, customers, or suppliers.",
+          "source_page": 202,
+          "source_file": "1626944616560.pdf"
+        }
+      ],
+      "_meta": {
+        "subsection": "Promoters & Management",
+        "chunks_used": 8,
+        "missing_fields": [
+          "promoters",
+          "promoter_group_holding"
+        ],
+        "elapsed_s": 10.79
+      }
+    },
+    "Subsidiaries & Associates": {
+      "subsidiaries": {
+        "value": [
+          "The group comprises several subsidiaries controlled by the Company.",
+          "The auditors noted that the consolidated financial statements included the group's share of net loss (including other comprehensive income) of ₹ 182.32 million related to these subsidiaries."
+        ],
+        "source_page": 342,
+        "source_file": "1626944616560.pdf"
+      },
+      "associates": {
+        "value": [],
+        "source_page": null,
+        "source_file": null
+      },
+      "joint_ventures": {
+        "value": [
+          "The Company has a joint venture that is part of the group."
+        ],
+        "source_page": 342,
+        "source_file": "1626944616560.pdf"
+      },
+      "other_facts": [
+        {
+          "field_name": "additional_fact",
+          "value": "Antfin Singapore Holding Pte. Ltd. was incorporated on October 18, 2018, and is engaged in investment holding activities.",
+          "source_page": null,
+          "source_file": null
+        }
+      ],
+      "_meta": {
+        "subsection": "Subsidiaries & Associates",
+        "chunks_used": 8,
+        "missing_fields": [
+          "associates"
+        ],
+        "elapsed_s": 2.42
+      }
+    },
+    "Financial Highlights": {
+      "revenue_latest_year": {
+        "value": 19937.89,
+        "year_label": "2021",
+        "source_page": 30,
+        "source_file": "1626944616560.pdf"
+      },
+      "revenue_prior_year": {
+        "value": 26047.37,
+        "year_label": "2020",
+        "source_page": 30,
+        "source_file": "1626944616560.pdf"
+      },
+      "revenue_two_years_ago": {
+        "value": 13125.86,
+        "year_label": "2019",
+        "source_page": 30,
+        "source_file": "1626944616560.pdf"
+      },
+      "pat_latest_year": {
+        "value": -8164.28,
+        "year_label": "2021",
+        "source_page": 30,
+        "source_file": "1626944616560.pdf"
+      },
+      "pat_prior_year": {
+        "value": -23856.01,
+        "year_label": "2020",
+        "source_page": 30,
+        "source_file": "1626944616560.pdf"
+      },
+      "ebitda_latest_year": {
+        "value": null,
+        "year_label": null,
+        "source_page": null,
+        "source_file": null
+      },
+      "net_worth_latest_year": {
+        "value": 80961.07,
+        "year_label": "2021",
+        "source_page": 30,
+        "source_file": "1626944616560.pdf"
+      },
+      "total_assets_latest_year": {
+        "value": null,
+        "year_label": null,
+        "source_page": null,
+        "source_file": null
+      },
+      "other_facts": [
+        {
+          "field_name": "fact",
+          "value": "Basic earnings per share for 2021 is -1.51.",
+          "source_page": 30,
+          "source_file": "1626944616560.pdf"
+        },
+        {
+          "field_name": "fact",
+          "value": "Diluted earnings per share for 2021 is -1.51.",
+          "source_page": 30,
+          "source_file": "1626944616560.pdf"
+        },
+        {
+          "field_name": "fact",
+          "value": "Net asset value per equity share for 2021 is 15.09.",
+          "source_page": 30,
+          "source_file": "1626944616560.pdf"
+        }
+      ],
+      "_meta": {
+        "subsection": "Financial Highlights",
+        "chunks_used": 8,
+        "missing_fields": [
+          "ebitda_latest_year",
+          "total_assets_latest_year"
+        ],
+        "elapsed_s": 6.55
+      }
+    },
+    "Geographic Presence": {
+      "states_present": {
+        "value": [],
+        "source_page": null,
+        "source_file": null
+      },
+      "number_of_offices": {
+        "value": null,
+        "source_page": null,
+        "source_file": null
+      },
+      "international_presence": {
+        "value": "India and abroad",
+        "source_page": 168,
+        "source_file": "1626944616560.pdf"
+      },
+      "distribution_network_description": {
+        "value": "The company aims to facilitate interactivities between restaurants and their customers and to create an internet portal providing various services.",
+        "source_page": 168,
+        "source_file": "1626944616560.pdf"
+      },
+      "other_facts": [
+        {
+          "field_name": "additional_fact",
+          "value": "India is expected to be the third largest consumer market by 2030.",
+          "source_page": null,
+          "source_file": null
+        },
+        {
+          "field_name": "additional_fact",
+          "value": "India has a large working population with a median age of 28, making it one of the youngest nations in the world.",
+          "source_page": null,
+          "source_file": null
+        },
+        {
+          "field_name": "additional_fact",
+          "value": "Urbanization in India is increasing, with over 54.6% of the population residing in urban towns and settlements in 2020.",
+          "source_page": null,
+          "source_file": null
+        },
+        {
+          "field_name": "additional_fact",
+          "value": "Significant internet and smartphone penetration has occurred, with an increase from 2015 to 2020 in internet users from 800 million to approximately 660-690 million.",
+          "source_page": null,
+          "source_file": null
+        },
+        {
+          "field_name": "additional_fact",
+          "value": "Data rates for mobile phones have become affordable at less than US$1 per GB.",
+          "source_page": null,
+          "source_file": null
+        },
+        {
+          "field_name": "additional_fact",
+          "value": "90% of phone connections in India were previously fixed lines, and there has been a rapid adoption of mobile technology.",
+          "source_page": null,
+          "source_file": null
+        }
+      ],
+      "_meta": {
+        "subsection": "Geographic Presence",
+        "chunks_used": 8,
+        "missing_fields": [
+          "states_present",
+          "number_of_offices"
+        ],
+        "elapsed_s": 4.38
+      }
+    },
+    "Awards & Certifications": {
+      "awards": {
+        "value": [],
+        "source_page": null,
+        "source_file": null
+      },
+      "certifications": {
+        "value": [],
+        "source_page": null,
+        "source_file": null
+      },
+      "accreditations": {
+        "value": [],
+        "source_page": null,
+        "source_file": null
+      },
+      "other_facts": [],
+      "_meta": {
+        "subsection": "Awards & Certifications",
+        "chunks_used": 8,
+        "missing_fields": [
+          "awards",
+          "certifications",
+          "accreditations"
+        ],
+        "elapsed_s": 1.77
+      }
+    },
+    "Future Strategy": {
+      "growth_plans": {
+        "value": "We expect NOV growth in food delivery to be north of 15% and hopefully trending towards that for FY26.",
+        "source_page": 6,
+        "source_file": "Eternal_Shareholders_Letter_Q1FY26_Results.pdf"
+      },
+      "expansion_targets": {
+        "value": [
+          "Expanding restaurant partner and customer reach through delivery infrastructure investments.",
+          "Enhancing market share especially in the face of heightened competition."
+        ],
+        "source_page": 6,
+        "source_file": "d9c290cd23764a09789769c39682276a_1746094084.pdf"
+      },
+      "strategic_initiatives": {
+        "value": [
+          "Innovating around wider assortment, better affordability, and lower delivery times.",
+          "Shifting focus to a hybrid inventory model to facilitate margin expansion."
+        ],
+        "source_page": 7,
+        "source_file": "d9c290cd23764a09789769c39682276a_1746094084.pdf"
+      },
+      "capex_plans": {
+        "value": "We intend to utilize at least 40% of the proposed capital for organic growth initiatives.",
+        "source_page": 118,
+        "source_file": "1626944616560.pdf"
+      },
+      "other_facts": [
+        {
+          "field_name": "additional_fact",
+          "value": "Current margin focus is on maintaining margins in the 5-6% range of NOV.",
+          "source_page": null,
+          "source_file": null
+        },
+        {
+          "field_name": "additional_fact",
+          "value": "The company expects to make significant investments in customer and user acquisition and retention.",
+          "source_page": null,
+          "source_file": null
+        },
+        {
+          "field_name": "additional_fact",
+          "value": "Delivery infrastructure investments are aimed at attracting more delivery partners.",
+          "source_page": null,
+          "source_file": null
+        }
+      ],
+      "_meta": {
+        "subsection": "Future Strategy",
+        "chunks_used": 8,
+        "missing_fields": [],
+        "elapsed_s": 3.85
+      }
+    }
+  },
+  "missing_fields_summary": [
+    "Manufacturing & Operations: manufacturing_locations",
+    "Manufacturing & Operations: installed_capacity",
+    "Manufacturing & Operations: utilization_rate",
+    "Manufacturing & Operations: key_raw_materials",
+    "Manufacturing & Operations: employees_count",
+    "Promoters & Management: promoters",
+    "Promoters & Management: promoter_group_holding",
+    "Subsidiaries & Associates: associates",
+    "Financial Highlights: ebitda_latest_year",
+    "Financial Highlights: total_assets_latest_year",
+    "Geographic Presence: states_present",
+    "Geographic Presence: number_of_offices",
+    "Awards & Certifications: awards",
+    "Awards & Certifications: certifications",
+    "Awards & Certifications: accreditations"
+  ]
+}

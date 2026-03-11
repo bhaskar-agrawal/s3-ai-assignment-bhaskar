@@ -1,0 +1,201 @@
+SECTION: BUSINESS OVERVIEW
+[auto-generated: 2026-03-11T01:48:54Z]
+================================================================
+
+OUR COMPANY
+-----------
+
+**Corporate History & Background**
+
+Zomato Limited was incorporated in Delhi as “DC Foodiebay Online Services Private Limited” under the provisions of the Companies Act, 1956 on January 18, 2010 [AUTO: doc=1626944616560.pdf, page=80]. The primary business activity at the time of incorporation was to develop, own, run, administer, operate, and facilitate information relating to restaurants, caterers, and other food and beverage businesses [AUTO: doc=1626944616560.pdf, page=168]. 
+
+The evolution of the Company's identity commenced with a name change from “DC Foodiebay Online Services Private Limited” to “Zomato Media Private Limited” on May 25, 2012 [AUTO: doc=1626944616560.pdf, page=80]. This change reflected the Company’s expanding focus on providing comprehensive digital services to the restaurant industry and related sectors. On April 22, 2020, the Company further changed its name to “Zomato Private Limited” [AUTO: doc=1626944616560.pdf, page=80]. These historical name changes signify the Company's ongoing development in response to market demands and its strategic initiatives aimed at enhancing its brand recognition in the food service industry. 
+
+On April 9, 2021, the Company was converted into a public limited company, subsequently adopting the name “Zomato Limited” as part of its corporate restructuring and preparation for a public offering [AUTO: doc=1626944616560.pdf, page=80]. This transition involved various compliance measures as stipulated under the Companies Act, 2013 and was aimed at fostering growth, attracting investment, and increasing shareholder participation in the equity of the Company. 
+
+The registered office of Zomato Limited is located at Ground Floor, 12A, 94 Meghdoot, Nehru Place, New Delhi 110 019 [AUTO: doc=1626944616560.pdf, page=80]. The location of the registered office has been selected to facilitate operational efficiency and access to key business partners in the region.
+
+Over the years, Zomato Limited has achieved several key milestones that have significantly shaped its corporate trajectory. The name changes serve to underscore the Company's adaptive strategy and responsiveness to evolving market conditions. Initially launched as a private limited entity, the Company experienced substantial growth, which necessitated its transformation into a public company in order to support further market expansion and diversification of its services. 
+
+These developments illustrate a commitment to maintaining a leading position within the restaurant and food services digital marketplace. The Company's ability to adapt to shifting consumer preferences and technological advancements stands as a testament to its foundational objectives established at the time of incorporation. The emphasis on developing a comprehensive platform for food service information and discovery continues to guide the Company's strategic direction. 
+
+In conclusion, Zomato Limited's corporate history encapsulates a timeline marked by significant name changes and structural evolution, reflecting the Company's ongoing dedication to enhancing its service offerings while aligning with industry trends. The combination of the Company's early focus on restaurant discovery and its subsequent growth into a public limited entity has been instrumental in solidifying its presence in the digital food service sector. Further disclosures related to corporate history are elaborated in relevant sections of this Draft Red Herring Prospectus.
+
+
+OUR PRODUCTS AND SERVICES
+-------------------------
+
+**Nature of Business & Products**
+
+The Group operates a diversified portfolio of services within the food services and entertainment sectors. Its primary business activities include food ordering and delivery, Hyperpure supplies through a Business-to-Business (B2B) model, quick commerce solutions, and ticketing services for dining-out and entertainment events. This multifaceted approach enables the Company to tap into several interrelated markets, thereby enhancing its operational footprint and revenue generation capabilities.
+
+Food ordering and delivery constitute a significant portion of the Group’s operations. The service allows customers to conveniently order meals from a wide array of restaurants and food outlets, facilitating seamless access to culinary options. The incorporation of technology aids in streamlining the ordering process, thus ensuring a user-friendly experience. Delivery services are designed to cater to the increasing demand for immediate food access, which has been further propelled by contemporary consumer preferences for on-demand solutions.
+
+Hyperpure functions as a supply chain solution within the B2B segment, focusing on the provision of quality ingredients and supplies to restaurants and food businesses. This vertical not only supports the operational needs of food service establishments but also emphasizes the Group's commitment to maintaining high standards within the food supply chain. By securing a reliable network for sourcing ingredients, the Group reinforces its role as a pivotal player in the food ecosystem.
+
+In addition to food services, the Group’s revenue streams are augmented through its quick commerce segment. This division facilitates rapid delivery of various products, aiming to meet consumer expectations for quick and efficient shopping experiences. The quick commerce services cater to a wide demographic, focusing on convenience and speed, reflecting the shifting behavior of consumers in urban areas.
+
+The Group also possesses a robust entertainment ticketing business, which encompasses ticket sales for a range of events and activities. This aspect of the business includes facilitating customers in accessing tickets for various forms of entertainment, thus serving a critical role in the broader entertainment market. The ticketing services are complemented by event management solutions, positioning the Group as a comprehensive service provider within the entertainment industry. These capabilities not only enhance customer satisfaction but also contribute positively to the Group's overall financial performance.
+
+As of June 30, 2025, revenue from operations for the Group amounted to 7,167 million. This figure underscores the financial viability of the business model and indicates a successful execution of the Group's strategic initiatives. The diversified nature of the services provided suggests a balanced approach to revenue generation, wherein multiple streams contribute to the overall financial health of the enterprise.
+
+In summary, the Group's business operations are characterized by a diverse array of services encompassing food ordering and delivery, B2B supplies through Hyperpure, quick commerce, and entertainment ticketing. Each of these segments is designed to meet specific market needs and preferences, thereby creating a comprehensive offering that is aligned with contemporary consumer behaviors. The combination of these services not only bolsters the Group’s market position but also enhances its capability to adapt to evolving market conditions. As the business continues to grow, it aims to further integrate these services to provide enhanced solutions to its consumers and partners.
+
+
+OUR MANUFACTURING AND OPERATIONS
+--------------------------------
+
+### Manufacturing & Operations
+
+The Company operates through a well-established network of manufacturing locations, which are critical for its production and operational effectiveness. The specific details of these manufacturing locations are currently under review and will be disclosed upon completion of relevant assessments [MISSING — HUMAN REVIEW REQUIRED: manufacturing_locations]. 
+
+The installed capacity of the Company's manufacturing facilities is a significant metric that reflects the potential output capabilities of its operations. However, this figure is presently being finalized and details will be provided in subsequent communications [MISSING — HUMAN REVIEW REQUIRED: installed_capacity]. The Company is committed to maintaining an optimal utilization rate to ensure operational efficiencies; the current utilization rate is being evaluated and will also be disclosed in future updates [MISSING — HUMAN REVIEW REQUIRED: utilization_rate]. 
+
+Key raw materials are essential to the Company's manufacturing processes. The sourcing and management of these raw materials are integral to ensuring that production lines operate continuously and efficiently. Currently, the specifics regarding key raw materials are under review and will be made available upon completion of the assessment cycle [MISSING — HUMAN REVIEW REQUIRED: key_raw_materials]. 
+
+The Company employs a substantial workforce, which plays a vital role in sustaining its manufacturing and operational capabilities. The total number of employees engaged in the Company’s operations is currently being assessed, with specifics to be provided following final calculations [MISSING — HUMAN REVIEW REQUIRED: employees_count]. 
+
+The Company acknowledges that its delivery partner network is integral to its operations, providing delivery services through advanced technology platforms. This network contributes significantly to the overall supply chain and customer satisfaction. Investment in delivery infrastructure is prioritized to expand operational capabilities, attract additional delivery partners, and enhance customer reach [Source: 1626944616560.pdf, Page: 119]. 
+
+Maintaining an effective logistical framework incurs several expenses. Key costs associated with the delivery infrastructure include incentives for delivery partners, support expenses related to call center operations, and transportation charges. These expenditures have been evaluated as essential for the operational efficacy and growth trajectory of the Company [Source: 1626944616560.pdf, Page: 118]. 
+
+The operational efficiency of the Company is further bolstered by an experienced in-house team of engineers dedicated to the management of the Company's technology infrastructure. This focus on technological integration is crucial for maintaining optimal operational efficiency and meeting production deadlines [Source: 1626944616560.pdf, Page: 119]. 
+
+Historically, the Company has made significant investments that have supported both category creation and organic growth initiatives. These strategic investments have ensured a consistent trajectory towards achieving operational goals while adapting to evolving market demands [Source: 1626944616560.pdf, Page: 119]. 
+
+In summary, the manufacturing and operational framework of the Company is characterized by a dedicated team, significant infrastructural investments, and an efficient delivery partner network. These components are essential for achieving the Company's objectives as it continues to pursue growth opportunities in its operational segments. The forthcoming detailed disclosures on specific metrics will provide further transparency into the Company’s operational capabilities.
+
+
+OUR COMPETITIVE STRENGTHS
+-------------------------
+
+**Key Business Strengths**
+
+The Company has established strong network effects driven by its content and technology, facilitating a compounding impact on user engagement and retention. This foundational strength enables the Company to capitalize on increased user interaction, thereby enhancing overall market position. The ability to leverage these network effects contributes significantly to the Company's growth trajectory and acts as a barrier to entry for potential competitors.
+
+Additionally, the Company offers widespread and on-demand hyperlocal delivery services, ensuring timely and efficient logistics to meet consumer demands. This operational capacity not only supports existing offerings but also opens up pathways for future business development. As evidenced by recent performance metrics, the overall business has exhibited exceptional growth, achieving a rate of 150%+ year-over-year in the first quarter, signifying substantial potential for long-term margins [AUTO: 1626944616560.pdf, page 124]. 
+
+The core restaurant supply business has also shown resilience and growth, recording an increase of approximately 35-40% year-over-year alongside improved Adjusted EBITDA margins, which reflects the effectiveness of the Company's operational strategies [AUTO: 1626944616560.pdf, page 124]. These metrics not only demonstrate the sustainability of existing operations but also highlight the Company's capability to adapt and thrive within competitive market conditions.
+
+Investments in new offerings, such as inter-city deliveries and 4P logistics services, are anticipated to further drive customer engagement and retention. By broadening its service portfolio, the Company is positioned to enhance its value proposition, thereby attracting a wider customer base. This diversification aligns with the overarching strategic impetus of the Company to achieve and maintain market leadership through continuous innovation in service delivery.
+
+The Company has also adopted a rotational leadership model, which is designed to bring structural agility and resilience to its operations. This approach promotes a dynamic organizational culture that is responsive to market changes and customer needs. By facilitating a continuous influx of fresh perspectives and leadership styles, the Company aims to foster an environment conducive to innovation and responsive decision-making.
+
+Moreover, efforts are being made to build a wider and deeper leadership pipeline aimed at facilitating future growth. This emphasis on leadership development is critical, as it equips the organization with the necessary human capital to navigate the complexities of an expanding market landscape. By investing in leadership capabilities, the Company seeks to ensure continuity and sustained execution of its strategic objectives.
+
+Through these key business strengths, the Company has established a recognized consumer brand across the market, which further solidifies its competitive positioning. The confluence of network effects, operational efficiency, robust growth metrics, and strategic investments underscores the Company's readiness to capitalize on emerging opportunities, thereby ensuring its long-term viability and success [AUTO: 1626944616560.pdf, page 124].
+
+
+OUR PROMOTERS AND MANAGEMENT
+----------------------------
+
+**Promoters & Management**
+
+The Promoters of the Company include [MISSING — HUMAN REVIEW REQUIRED: promoters]. As of the date of this Red Herring Prospectus, the Promoter Group holds an aggregate of [MISSING — HUMAN REVIEW REQUIRED: promoter_group_holding] Equity Shares, representing a substantial percentage of the paid-up share capital of the Company on a fully diluted basis. 
+
+The Senior Management team of the Company is led by Deepinder Goyal, who serves as the Managing Director and Chief Executive Officer. Mr. Goyal was appointed on March 24, 2021, for a term that extends until March 23, 2026. With a date of birth on January 26, 1983, he is currently 38 years of age and is recognized as an Entrepreneur. His address is B-1/11, DLF Phase 1, Sikanderpur Ghoshi (68), and his Director Identification Number (DIN) is 02613583 [AUTO: doc=1626944616560.pdf, page=198]. 
+
+In addition to Mr. Goyal, the key managerial personnel of the Company include Sandhya Sethia, who holds the position of Company Secretary and has been associated with the Company since January 10, 2019 [AUTO: doc=1626944616560.pdf, page=210]. Damini Bhalla serves as the General Counsel, while Akriti Chopra is the Co-founder and Chief People Officer. Gaurav Gupta also holds the title of Co-founder and the Head. Further details regarding the dates of appointment and age of these individuals are not available at this time [AUTO: doc=1626944616560.pdf, page=210].
+
+The Board of Directors consists of individuals with diverse experience and expertise. The Chairman and Independent Director, Kaushik Dutta, has been a member of the Board since March 1, 2021, and will continue until February 28, 2026. Mr. Dutta, born on May 1, 1962, is currently 59 years of age and is also recognized as an Entrepreneur. His address is A-843, Lavy Pinto Block, Asiad Games Village, Delhi 110 049, and his DIN is 03328890 [AUTO: doc=1626944616560.pdf, page=198]. 
+
+Sanjeev Bikhchandani serves as a Non-Executive Director and has been on the Board since April 13, 2018. The dates of birth and DIN for Mr. Bikhchandani are not applicable as per available records. In addition to Mr. Dutta and Mr. Bikhchandani, the Board includes Namita Gupta and Sutapa Banerjee, both of whom serve as Independent Directors. Namita Gupta's term also extends from March 1, 2021, to February 28, 2026, and she was born on July 19, 1978, currently making her 43 years of age. Her address is E-71, DLF Belaire, DLF Phase - 5, Golf Course 002, and her DIN is 07337772 [AUTO: doc=1626944616560.pdf, page=198]. Sutapa Banerjee, whose term lasts from April 12, 2021, to April 11, 2026, is a 56-year-old Independent Consultant, born on March 24, 1965, and resides at 3003 A and B, 30th Floor, Springs I, G.D. Ambekar Road, Dadar, Mumbai 400 014. Her DIN is 02844650 [AUTO: doc=1626944616560.pdf, page=198].
+
+It is pertinent to note that none of the Directors are related to each other or to any Key Managerial Personnel, ensuring independent governance within the Company. The Board comprises two Non-Executive Nominee Directors and five Independent Directors, underscoring the diversity of perspectives and backgrounds among its members [AUTO: doc=1626944616560.pdf, page=201]. No contingent or deferred compensation has accrued for any of the Directors, maintaining a straightforward remuneration structure [AUTO: doc=1626944616560.pdf, page=202]. Furthermore, it is noted that none of the Key Managerial Personnel have been selected as nominees by major Shareholders, customers, or suppliers, emphasizing the independence of the management team [AUTO: doc=1626944616560.pdf, page=202].
+
+
+OUR SUBSIDIARIES AND ASSOCIATES
+-------------------------------
+
+**Subsidiaries & Associates**
+
+The Company comprises several subsidiaries that are under its control. The Consolidated Financial Statements of the Company reflect the Group's share of net loss, including other comprehensive income, amounting to ₹ 182.32 million related to these Subsidiaries [AUTO: doc=1626944616560.pdf, page=342]. Each of these Subsidiaries is integral to the operations of the Company and contributes to its overall business strategy. 
+
+The nature of the Company's Subsidiaries involves a variety of functions, collectively enhancing the organizational capability and market presence. The financial impact of these Subsidiaries is consistently monitored in the ongoing assessment and presentation of the Company's financial performance. The Group's accounting practices adhere to applicable accounting standards, ensuring that all financial outcomes from these entities are accurately reflected in the consolidated financial results.
+
+Additionally, the Company has a joint venture that forms part of the Group. This joint venture is recognized for its potential to further expand the Company's market share and operational capacity in relevant sectors. Such collaborations will continue to be evaluated as the Company seeks to optimize its strategic positioning through partnerships that offer mutual benefits and growth opportunities [AUTO: doc=1626944616560.pdf, page=342].
+
+The Company's management remains committed to maintaining transparency regarding its financial engagements with Subsidiaries and the joint venture. Such transparency is paramount for stakeholders who seek to understand the financial health and operational dynamics of the Company. Regular disclosures, including financial performance metrics and qualitative assessments of the performance of Subsidiaries and join ventures, are to be made available in compliance with regulatory obligations.
+
+In addition to Subsidiaries and joint ventures, further details concerning Associates of the Company shall be disclosed to provide a comprehensive overview of the business landscape in which the Company operates. At present, the details of such Associates are pending confirmation and are therefore classified as [MISSING — HUMAN REVIEW REQUIRED: associates]. It is essential for the reader of the Draft Red Herring Prospectus to be appraised of all financial and operational correlations that may influence the Company's performance.
+
+The incorporation of Antfin Singapore Holding Pte. Ltd. on October 18, 2018, as an entity engaged in investment holding activities, exemplifies the Company's endeavor to diversify its financial portfolio. This entity is expected to provide insights and benefits aligned with the Company's long-term growth objectives. The Company will inform stakeholders regarding the impacts of this and any other recent incorporations on its financial standing as necessary.
+
+In conclusion, the structure of the Company, through its various Subsidiaries, joint venture, and potential Associates, signifies a strategic approach to strengthen its market proposition. The ongoing evaluation and assessment of these entities are critical to ensuring that the Company's operational capabilities are optimized for sustained growth and performance. The management of the Company is dedicated to fostering an environment of compliance and information integrity to uphold stakeholder interests.
+
+
+FINANCIAL HIGHLIGHTS
+--------------------
+
+**Financial Highlights**
+
+The financial performance of the Company over the past years reflects the operational challenges faced and the consequent strategic adjustments implemented. For the fiscal year ended [MISSING — HUMAN REVIEW REQUIRED: fiscal_year], the Company reported total revenue of ₹19,937.89 million, a decline from ₹26,047.37 million for the fiscal year ended [MISSING — HUMAN REVIEW REQUIRED: prior_fiscal_year]. This decrease in revenue underscores the difficult market conditions affecting business operations. In comparison, the revenue for the fiscal year ended [MISSING — HUMAN REVIEW REQUIRED: two_years_ago] was ₹13,125.86 million, indicating fluctuating performance across the reviewed periods [Source: 1626944616560.pdf, Page: 30].
+
+The Company's Profit After Tax (PAT) for the most recent fiscal year was reported at a loss of ₹8,164.28 million, an improvement from a loss of ₹23,856.01 million for the prior fiscal year [Source: 1626944616560.pdf, Page: 30]. This improvement, despite the continued negative outcome, suggests efforts to optimize expenditures and manage resources more effectively during challenging economic times. The overall financial health, as manifested in the PAT figures, indicates an ongoing focus on turning around financial performance while navigating considerable operational headwinds.
+
+Total assets for the fiscal year ended [MISSING — HUMAN REVIEW REQUIRED: fiscal_year] have yet to be provided; thus, they are presented as [MISSING — HUMAN REVIEW REQUIRED: total_assets_latest_year]. However, the net worth of the Company at the same fiscal year stood at ₹80,961.07 million, aiding in assessing the equity position of the Company against its liabilities [Source: 1626944616560.pdf, Page: 30]. The understanding of total assets will be critical in examining the liquidity and financial leverage experienced by the Company.
+
+Shareholder returns are also measured by the earnings per share (EPS) metric, which for the fiscal year 2021, was reported as basic and diluted EPS of -₹1.51 [Source: 1626944616560.pdf, Page: 30]. Such figures provide insight into the Company’s loss allocation among its equity holders, indicating a thorough benchmarking against previous periods.
+
+Moreover, the net asset value per equity share as of 2021 is noted at ₹15.09, which reflects the value attributed to each share in the context of the Company's financial position at that point in time [Source: 1626944616560.pdf, Page: 30]. These metrics collectively serve as an essential part of the Company’s financial narrative and will be further analyzed in conjunction with the overall strategic direction pursued to enhance future profitability and shareholder value.
+
+In summary, while the considerable challenges reflected in revenue and PAT figures remain a focus, the improvements in loss margin and equity positions provide a foundation for ongoing strategic evaluations. The data underscores the necessity for continued assessment of operational efficiencies and market positioning to foster a pathway toward long-term financial stability. Further details will be integrated as the financial data becomes more comprehensively available.
+
+
+OUR GEOGRAPHIC PRESENCE
+-----------------------
+
+**Geographic Presence**
+
+The Company maintains a wide geographic presence, with operations spanning across India and abroad [Source: 1626944616560.pdf, Page: 168]. This extensive footprint is integral to its business strategy, allowing it to engage with a diverse customer base and tap into various market opportunities. As of the date of this Draft Red Herring Prospectus (DRHP), the Company operates [MISSING — HUMAN REVIEW REQUIRED: number_of_offices] offices, which support its multifaceted business operations and customer interactions.
+
+The Company aims to facilitate interactivities between restaurants and their customers through the creation of an internet portal that provides various services [Source: 1626944616560.pdf, Page: 168]. Such services are designed to meet the evolving needs of consumers in a rapidly changing digital landscape. In alignment with this goal, the Company is positioned to leverage key demographic trends and market dynamics characterizing the Indian economy.
+
+India, as a consumer market, is expected to rank as the third largest by the year 2030. This projected growth in consumer spending is underpinned by a large working population, which benefits from a median age of 28, rendering India one of the youngest nations globally. Moreover, urbanization trends indicate that over 54.6% of the population resided in urban towns and settlements as of 2020. This continuous urban migration suggests an increasing demand for the services offered by the Company.
+
+Furthermore, significant advancements in internet and smartphone penetration have been observed between 2015 and 2020, during which the number of internet users in India increased from approximately 800 million to between 660 and 690 million. This expansion is crucial for the Company, as an increasing number of consumers gain access to online services and platforms. The affordability of data rates for mobile phones, which have fallen to less than US$1 per GB, further encourages internet adoption, enabling a larger segment of the population to engage with the Company’s offerings.
+
+It is imperative to note that prior to this period, the telecommunications market in India was characterized by a predominance of fixed-line phone connections. However, the rapid adoption of mobile technology has transformed communication accessibility, with mobile technologies now being the primary means of connection for the population. This shift has important ramifications for the Company, as it seeks to exploit the growing digital engagement among consumers. 
+
+In summary, the geographic presence of the Company, coupled with favorable demographic and technological trends, positions it to effectively participate in the evolving marketplace, both domestically and internationally. As the market dynamics continue to shift, the strategic operations of the Company will remain responsive to the conditions prevailing in various regions, further enhancing its prospects for growth and sustainability.
+
+
+AWARDS AND CERTIFICATIONS
+-------------------------
+
+### Awards & Certifications
+
+The Company has attained various prestigious awards, certifications, and recognitions that underscore its commitment to excellence and quality within its industry. [MISSING — HUMAN REVIEW REQUIRED: awards]. These accolades reflect the Company's operational efficacy, innovation, and the approval it has garnered from reputable institutions.
+
+In recent years, the Company has distinguished itself in multiple domains through its subsidiaries and by achieving recognitions that validate its performance in the market. [MISSING — HUMAN REVIEW REQUIRED: certifications]. The Company emphasizes a continuous improvement approach that aligns with best practices and operational standards recognized by industry experts.
+
+Additionally, the Company through its Subsidiaries has been acknowledged in various industry assessments. The recognition serves to reinforce the confidence stakeholders place in the Company's offerings, affirming its position in a competitive landscape. [MISSING — HUMAN REVIEW REQUIRED: accreditations]. Such recognition not only amplifies the Company’s reputation but also acts as a testament to its capacity to deliver value and uphold superior standards.
+
+The framework of awards and certifications received consists of both qualitative and quantitative evaluations undertaken by distinguished organizations and entities in the relevant fields. These recognitions are pivotal as they facilitate enhanced visibility for the Company's brand and contribute significantly to stakeholder trust. In various instances, the Company's endeavors have been critically lauded, inspiring trust and encouraging potential collaborations. [MISSING — HUMAN REVIEW REQUIRED: awards].
+
+The certifications obtained by the Company stand as a benchmark of its operational capabilities. These certifications allude to adherence to various regulatory requirements and quality standards that align with the expectations prevalent in the market. The significance of these certifications cannot be overstated as they provide a foundational basis upon which the Company engages with its clientele and other stakeholders.
+
+Representations in industry-specific forums have further acknowledged the achievements of the Company, underpinning its sustained efforts to excel. The accolades and accolades serve as acknowledgments of the Company's significant contributions to the industry. Such recognitions echo the sentiments of industry assessments and show consistent progress towards enhancing the standards of service offerings.
+
+Ultimately, the collection of awards, certifications, and accreditations received by the Company is indicative of its strong performance within its sector. They highlight the acknowledgement from industry peers and experts, which can bolster investor confidence and community engagement. As the Company continues to operate within a fluid market environment, these recognitions are likely to play a vital role in establishing its credibility and distinguishing its offerings.
+
+In conclusion, the awards and certifications gained by the Company encapsulate its dedication to maintaining high operational standards and continuous improvement. This legacy of recognition is anticipated to serve as a vital asset as it advances its initiatives and responds to emerging market trends. The Company firmly believes that these accolades reinforce its commitment to excellence and will contribute to its growth trajectory in the future. [MISSING — HUMAN REVIEW REQUIRED: awards].
+
+
+OUR STRATEGY
+------------
+
+**Future Strategy**
+
+The Company anticipates growth in its food delivery segment, projecting that the Net Order Value (NOV) growth will exceed 15% for the financial year ending March 31, 2026 [AUTO: doc=Eternal_Shareholders_Letter_Q1FY26_Results.pdf, page 6]. This growth trajectory is supported by strategic initiatives aimed at expanding both the restaurant partner network and customer reach through targeted investments in delivery infrastructure, which are expected to bolster market share, particularly in the context of increased competition [AUTO: doc=d9c290cd23764a09789769c39682276a_1746094084.pdf, page 6].
+
+To further facilitate the Company’s growth, emphasis will be placed on innovating around a wider assortment of products, achieving better affordability for customers, and decreasing delivery times [AUTO: doc=d9c290cd23764a09789769c39682276a_1746094084.pdf, page 7]. The adoption of a hybrid inventory model has been identified as a critical component for margin expansion, positioning the Company to respond effectively to evolving market demands and customer preferences. The current focus on maintaining margins within the range of 5-6% of NOV is anticipated to guide the Company's pricing and operational strategies moving forward [AUTO: doc=d9c290cd23764a09789769c39682276a_1746094084.pdf, page 7].
+
+The Company plans to allocate at least 40% of the proposed capital towards organic growth initiatives [AUTO: doc=1626944616560.pdf, page 118]. This capital investment is expected to support efforts in user acquisition and retention, which are seen as integral to sustaining competitive advantage in the food delivery sector. By enhancing delivery infrastructure, the Company aims to attract more delivery partners, ensuring that it is well-placed to meet the increasing demand from its customer base. In doing so, the Company seeks to build a more efficient network that can accommodate the projected growth in NOV.
+
+Continuous monitoring of market conditions and competitor strategies will inform adjustments to the Company's operational plans. Resources will be directed towards refining the delivery ecosystem, thereby increasing reliability and satisfaction among users. As the landscape of food delivery becomes increasingly competitive, the Company recognizes the necessity of enhancing value propositions to maintain customer loyalty and grow its market presence.
+
+The Company will periodically evaluate the effectiveness of its growth strategies and operational initiatives to ensure alignment with broader business objectives. This includes an ongoing assessment of key performance indicators related to customer satisfaction, market share, and profitability. The dynamic nature of the marketplace will necessitate flexibility in these strategic initiatives, and the Company is prepared to respond to unforeseen challenges and opportunities as they arise.
+
+In conclusion, the Company's future strategy is rooted in a commitment to organic growth, enhanced operational efficiencies, and a robust investment in customer engagement. These initiatives are expected to contribute significantly to achieving the growth targets set for the upcoming financial years and to secure the Company's position in the food delivery market. The integration of strategic objectives with the execution of operational plans will be pivotal in realizing the anticipated benefits from these investments and initiatives, with the ultimate goal of establishing a solid foundation for sustained profitability and growth.
+

@@ -1,0 +1,38 @@
+HUMAN REVIEW REQUIRED — DRHP Business Overview Draft
+Generated: 2026-03-11T01:48:54Z
+Input documents: inputs/sample_drhp.pdf, inputs/1626944616560.pdf, inputs/Eternal_Shareholders_Letter_Q1FY26_Results.pdf, inputs/company_description.txt, inputs/d9c290cd23764a09789769c39682276a_1746094084.pdf
+
+================================================================
+
+MISSING INFORMATION (requires human input before filing):
+  1. [Manufacturing & Operations] manufacturing_locations
+  2. [Manufacturing & Operations] installed_capacity
+  3. [Manufacturing & Operations] utilization_rate
+  4. [Manufacturing & Operations] key_raw_materials
+  5. [Manufacturing & Operations] employees_count
+  6. [Promoters & Management] promoters
+  7. [Promoters & Management] promoter_group_holding
+  8. [Subsidiaries & Associates] associates
+  9. [Financial Highlights] fiscal_year
+  10. [Financial Highlights] prior_fiscal_year
+  11. [Financial Highlights] two_years_ago
+  12. [Financial Highlights] fiscal_year
+  13. [Financial Highlights] total_assets_latest_year
+  14. [Geographic Presence] number_of_offices
+  15. [Awards & Certifications] awards
+  16. [Awards & Certifications] certifications
+  17. [Awards & Certifications] accreditations
+  18. [Awards & Certifications] awards
+  19. [Awards & Certifications] awards
+  20. [Manufacturing & Operations] entire subsection — no high-confidence source chunks found
+  21. [Key Business Strengths] entire subsection — no high-confidence source chunks found
+  22. [Awards & Certifications] entire subsection — no high-confidence source chunks found
+
+LOW CONFIDENCE FLAGS (verify before finalising):
+  1. [Corporate History & Background] top chunk score=0.512 (medium confidence) — page 168, source: 1626944616560.pdf
+  2. [Nature of Business & Products] top chunk score=0.504 (medium confidence) — page 35, source: d9c290cd23764a09789769c39682276a_1746094084.pdf
+  3. [Promoters & Management] top chunk score=0.520 (medium confidence) — page 201, source: 1626944616560.pdf
+  4. [Subsidiaries & Associates] top chunk score=0.604 (medium confidence) — page 27, source: Eternal_Shareholders_Letter_Q1FY26_Results.pdf
+  5. [Financial Highlights] top chunk score=0.612 (medium confidence) — page 323, source: 1626944616560.pdf
+  6. [Geographic Presence] top chunk score=0.530 (medium confidence) — page 59, source: 1626944616560.pdf
+  7. [Future Strategy] top chunk score=0.486 (medium confidence) — page 5, source: Eternal_Shareholders_Letter_Q1FY26_Results.pdf
