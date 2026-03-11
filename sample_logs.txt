@@ -1,0 +1,174 @@
+(.venv) (base) bhaskaragarwal@Bhaskars-MacBook-Pro s3.ai_assignment_bhaskar % bash run.sh
+Input directory (press Enter for default 'inputs/'):
+
+[main] Input directory : /Users/bhaskaragarwal/repos/s3.ai_assignment_bhaskar/inputs
+[main] Reference DRHP  : sample_drhp.pdf
+[main] Context files   : ['1626944616560.pdf', 'Eternal_Shareholders_Letter_Q1FY26_Results.pdf', 'company_description.txt', 'd9c290cd23764a09789769c39682276a_1746094084.pdf']
+
+[main] Stage 1: Ingesting documents ...
+[ingest] sample_drhp.pdf: 568 pages — extracting in parallel (batch=20, workers=8) ...
+[ingest]   pages 1-20/568 (4%) — 76 chunks
+[ingest]   pages 21-40/568 (7%) — 139 chunks
+[ingest]   pages 41-60/568 (11%) — 206 chunks
+[ingest]   pages 61-80/568 (14%) — 277 chunks
+[ingest]   pages 81-100/568 (18%) — 333 chunks
+[ingest]   pages 101-120/568 (21%) — 381 chunks
+[ingest]   pages 121-140/568 (25%) — 431 chunks
+[ingest]   pages 141-160/568 (28%) — 493 chunks
+[ingest]   pages 161-180/568 (32%) — 568 chunks
+[ingest]   pages 181-200/568 (35%) — 614 chunks
+[ingest]   pages 201-220/568 (39%) — 670 chunks
+[ingest]   pages 221-240/568 (42%) — 719 chunks
+[ingest]   pages 241-260/568 (46%) — 774 chunks
+[ingest]   page 276/568 — skipped (low text: 0 chars)
+[ingest]   pages 261-280/568 (49%) — 833 chunks
+[ingest]   pages 281-300/568 (53%) — 883 chunks
+[ingest]   pages 301-320/568 (56%) — 934 chunks
+[ingest]   pages 321-340/568 (60%) — 1038 chunks
+[ingest]   pages 341-360/568 (63%) — 1126 chunks
+[ingest]   pages 361-380/568 (67%) — 1198 chunks
+[ingest]   pages 381-400/568 (70%) — 1261 chunks
+[ingest]   pages 401-420/568 (74%) — 1316 chunks
+[ingest]   pages 421-440/568 (77%) — 1377 chunks
+[ingest]   pages 441-460/568 (81%) — 1435 chunks
+[ingest]   pages 461-480/568 (85%) — 1505 chunks
+[ingest]   pages 481-500/568 (88%) — 1566 chunks
+[ingest]   pages 501-520/568 (92%) — 1626 chunks
+[ingest]   pages 521-540/568 (95%) — 1673 chunks
+[ingest]   pages 541-560/568 (99%) — 1695 chunks
+[ingest]   pages 561-568/568 (100%) — 1720 chunks
+[ingest] sample_drhp.pdf: done — 1720 chunks, 567 pages used, 1 skipped
+[ingest] 1626944616560.pdf: 420 pages — extracting in parallel (batch=20, workers=8) ...
+[ingest]   pages 1-20/420 (5%) — 73 chunks
+[ingest]   pages 21-40/420 (10%) — 134 chunks
+[ingest]   pages 41-60/420 (14%) — 210 chunks
+[ingest]   pages 61-80/420 (19%) — 270 chunks
+[ingest]   pages 81-100/420 (24%) — 358 chunks
+[ingest]   pages 101-120/420 (29%) — 418 chunks
+[ingest]   pages 121-140/420 (33%) — 470 chunks
+[ingest]   page 148/420 — skipped (low text: 0 chars)
+[ingest]   page 149/420 — skipped (low text: 0 chars)
+[ingest]   page 150/420 — skipped (low text: 0 chars)
+[ingest]   page 151/420 — skipped (low text: 0 chars)
+[ingest]   page 160/420 — skipped (low text: 0 chars)
+[ingest]   pages 141-160/420 (38%) — 496 chunks
+[ingest]   pages 161-180/420 (43%) — 558 chunks
+[ingest]   pages 181-200/420 (48%) — 611 chunks
+[ingest]   pages 201-220/420 (52%) — 664 chunks
+[ingest]   pages 221-240/420 (57%) — 745 chunks
+[ingest]   pages 241-260/420 (62%) — 843 chunks
+[ingest]   pages 261-280/420 (67%) — 905 chunks
+[ingest]   pages 281-300/420 (71%) — 981 chunks
+[ingest]   pages 301-320/420 (76%) — 1060 chunks
+[ingest]   pages 321-340/420 (81%) — 1125 chunks
+[ingest]   pages 341-360/420 (86%) — 1189 chunks
+[ingest]   pages 361-380/420 (90%) — 1256 chunks
+[ingest]   pages 381-400/420 (95%) — 1328 chunks
+[ingest]   pages 401-420/420 (100%) — 1371 chunks
+[ingest] 1626944616560.pdf: done — 1371 chunks, 415 pages used, 5 skipped
+[ingest] Eternal_Shareholders_Letter_Q1FY26_Results.pdf: 35 pages — extracting in parallel (batch=20, workers=8) ...
+[ingest]   page 1/35 — skipped (low text: 0 chars)
+[ingest]   page 2/35 — skipped (low text: 0 chars)
+[ingest]   page 13/35 — skipped (low text: 0 chars)
+[ingest]   page 18/35 — skipped (low text: 0 chars)
+[ingest]   page 19/35 — skipped (low text: 0 chars)
+[ingest]   page 20/35 — skipped (low text: 0 chars)
+[ingest]   pages 1-20/35 (57%) — 25 chunks
+[ingest]   pages 21-35/35 (100%) — 63 chunks
+[ingest] Eternal_Shareholders_Letter_Q1FY26_Results.pdf: done — 63 chunks, 29 pages used, 6 skipped
+[ingest] company_description.txt: reading ...
+[ingest] company_description.txt: done — 5 chunks
+[ingest] d9c290cd23764a09789769c39682276a_1746094084.pdf: 45 pages — extracting in parallel (batch=20, workers=8) ...
+[ingest]   page 1/45 — skipped (low text: 0 chars)
+[ingest]   page 2/45 — skipped (low text: 0 chars)
+[ingest]   page 12/45 — skipped (low text: 0 chars)
+[ingest]   page 17/45 — skipped (low text: 0 chars)
+[ingest]   page 18/45 — skipped (low text: 0 chars)
+[ingest]   page 19/45 — skipped (low text: 0 chars)
+[ingest]   pages 1-20/45 (44%) — 23 chunks
+[ingest]   pages 21-40/45 (89%) — 78 chunks
+[ingest]   pages 41-45/45 (100%) — 92 chunks
+[ingest] d9c290cd23764a09789769c39682276a_1746094084.pdf: done — 92 chunks, 39 pages used, 6 skipped
+[ingest] ✓ complete: 3251 chunks, 1081 tables from 5 file(s)
+[main]   4332 chunks (1081 from tables), 1081 raw tables
+
+[main] Loading embedding model ...
+/Users/bhaskaragarwal/repos/s3.ai_assignment_bhaskar/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[embed] Loading model 'all-MiniLM-L6-v2' ...
+[embed] Model ready (4.8s)
+
+[main] Stage 2: Building FAISS index ...
+[embed] Cache hit — same input files, loading index from disk ...
+INFO: Loading faiss.
+INFO: Successfully loaded faiss.
+[embed] ✓ loaded 4332 vectors from cache
+
+[main] Stage 3: Retrieving subsections ...
+[retrieve] 0 heading(s) detected from reference DRHP (expected 3–15) — using default subsections
+[retrieve] Corporate History & Background ... confidence=medium  top_score=0.512
+[retrieve] Nature of Business & Products ... confidence=medium  top_score=0.504
+[retrieve] Manufacturing & Operations ... confidence=low  top_score=0.395
+[retrieve] Key Business Strengths ... confidence=low  top_score=0.430
+[retrieve] Promoters & Management ... confidence=medium  top_score=0.520
+[retrieve] Subsidiaries & Associates ... confidence=medium  top_score=0.604
+[retrieve] Financial Highlights ... confidence=medium  top_score=0.612
+[retrieve] Geographic Presence ... confidence=medium  top_score=0.530
+[retrieve] Awards & Certifications ... confidence=low  top_score=0.375
+[retrieve] Future Strategy ... confidence=medium  top_score=0.486
+
+[main] Stage 4: Extracting facts ...
+[llm] Provider: azure  model: gpt-4o-mini
+[extract] Corporate History & Background ... INFO: HTTP Request: POST https://bhaskarlnu-aifoundry1.cognitiveservices.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+done (9.7s)  missing=0
+[extract] Nature of Business & Products ... INFO: HTTP Request: POST https://bhaskarlnu-aifoundry1.cognitiveservices.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+done (6.6s)  missing=0
+[extract] Manufacturing & Operations ... INFO: HTTP Request: POST https://bhaskarlnu-aifoundry1.cognitiveservices.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+done (6.0s)  missing=5
+[extract] Key Business Strengths ... INFO: HTTP Request: POST https://bhaskarlnu-aifoundry1.cognitiveservices.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+done (3.0s)  missing=0
+[extract] Promoters & Management ... INFO: HTTP Request: POST https://bhaskarlnu-aifoundry1.cognitiveservices.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+done (10.8s)  missing=2
+[extract] Subsidiaries & Associates ... INFO: HTTP Request: POST https://bhaskarlnu-aifoundry1.cognitiveservices.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+done (2.4s)  missing=1
+[extract] Financial Highlights ... INFO: HTTP Request: POST https://bhaskarlnu-aifoundry1.cognitiveservices.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+done (6.6s)  missing=2
+[extract] Geographic Presence ... INFO: HTTP Request: POST https://bhaskarlnu-aifoundry1.cognitiveservices.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+done (4.4s)  missing=2
+[extract] Awards & Certifications ... INFO: HTTP Request: POST https://bhaskarlnu-aifoundry1.cognitiveservices.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+done (1.8s)  missing=3
+[extract] Future Strategy ... INFO: HTTP Request: POST https://bhaskarlnu-aifoundry1.cognitiveservices.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+done (3.8s)  missing=0
+
+[extract] ✓ extraction_log.json saved (15 missing fields total)
+
+[main] Stage 5: Drafting Business Overview ...
+[draft] Corporate History & Background ... INFO: HTTP Request: POST https://bhaskarlnu-aifoundry1.cognitiveservices.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+done (6.6s)  words=479
+[draft] Nature of Business & Products ... INFO: HTTP Request: POST https://bhaskarlnu-aifoundry1.cognitiveservices.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+done (7.9s)  words=518
+[draft] Manufacturing & Operations ... INFO: HTTP Request: POST https://bhaskarlnu-aifoundry1.cognitiveservices.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+done (5.9s)  words=478
+[draft] Key Business Strengths ... INFO: HTTP Request: POST https://bhaskarlnu-aifoundry1.cognitiveservices.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+done (6.3s)  words=437
+[draft] Promoters & Management ... INFO: HTTP Request: POST https://bhaskarlnu-aifoundry1.cognitiveservices.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+done (8.5s)  words=557
+[draft] Subsidiaries & Associates ... INFO: HTTP Request: POST https://bhaskarlnu-aifoundry1.cognitiveservices.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+done (6.3s)  words=466
+[draft] Financial Highlights ... INFO: HTTP Request: POST https://bhaskarlnu-aifoundry1.cognitiveservices.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+done (5.6s)  words=450
+[draft] Geographic Presence ... INFO: HTTP Request: POST https://bhaskarlnu-aifoundry1.cognitiveservices.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+done (6.6s)  words=433
+[draft] Awards & Certifications ... INFO: HTTP Request: POST https://bhaskarlnu-aifoundry1.cognitiveservices.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+done (5.3s)  words=476
+[draft] Future Strategy ... INFO: HTTP Request: POST https://bhaskarlnu-aifoundry1.cognitiveservices.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-12-01-preview "HTTP/1.1 200 OK"
+done (7.2s)  words=476
+
+[draft] ✓ business_overview_draft.txt written (34 KB)
+[draft] ✓ review_notes.txt written
+
+[main] Done.
+[main]   outputs/business_overview_draft.txt
+[main]   outputs/review_notes.txt
+[main]   outputs/extraction_log.json
+(.venv) (base) bhaskaragarwal@Bhaskars-MacBook-Pro s3.ai_assignment_bhaskar % 
