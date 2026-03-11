@@ -175,36 +175,33 @@ def _build_draft_prompt(
 
     facts_text = "\n".join(facts_lines) if facts_lines else "(No facts extracted.)"
 
-    return f"""You are a DRHP drafting assistant. Your task is to write one subsection of the Business Overview section of a Draft Red Herring Prospectus (DRHP) as filed with SEBI in India.
+    return f"""You are a DRHP drafting assistant helping write one subsection of the Business Overview section of a Draft Red Herring Prospectus (DRHP) as filed with SEBI in India.
 
-SUBSECTION TO DRAFT: {subsection_name}
+Subsection to draft: {subsection_name}
 
---- STYLE REFERENCE (tone and register only — do NOT use any facts from this section) ---
+Style reference (tone and sentence structure only — facts in this section belong to a different company and should not be used):
+---
 {style_text}
---- END STYLE REFERENCE ---
+---
 
---- FACTS TO USE (sole source of truth — use ONLY these facts) ---
+Facts to use (these are the only facts that should appear in the drafted text):
+---
 {facts_text}
---- END FACTS ---
+---
 
-CRITICAL DRAFTING INSTRUCTIONS:
+Drafting guidelines:
 
-1. STRICT FACTUAL ISOLATION: You MUST NOT copy any company names, dates, locations, numbers, products, or business activities from the STYLE REFERENCE. The style reference is strictly to show you the formal tone, sentence cadence, and legal register.
+1. Factual accuracy: Only use information from the facts section above. The style reference is provided to guide tone and sentence structure, not as a source of facts. Company names, dates, numbers, and other specifics should come exclusively from the facts section.
 
-2. SOURCE OF TRUTH: Use ONLY the information provided in the FACTS TO USE section above. If a fact is not in the FACTS section, DO NOT invent it and DO NOT pull it from the style reference.
+2. Inline citations: After every sentence that uses a fact, append the citation tag immediately — before the next sentence begins. For example: "The Company was incorporated in Maharashtra [AUTO: doc=roc.pdf, page=2]. It currently operates two manufacturing facilities [AUTO: doc=desc.txt, page=1]." Use the exact filename and page number shown in the facts section.
 
-3. INLINE CITATIONS (MANDATORY): For EVERY single fact you use, append its exact citation tag IMMEDIATELY after the sentence that contains it, before the next sentence starts.
-   Correct: "The Company was incorporated in Maharashtra [AUTO: doc=roc.pdf, page=2]. It currently operates two manufacturing facilities [AUTO: doc=desc.txt, page=1]."
-   Wrong: clustering tags at the end of a paragraph.
-   Use the exact filename and page number from the Source annotation in the FACTS section.
+3. Missing fields: For every field marked as [MISSING] in the facts section, include this placeholder in the prose exactly as written: [MISSING — HUMAN REVIEW REQUIRED: {{field_name}}].
 
-4. MISSING INFORMATION: For every [MISSING] field listed in the FACTS section, integrate the exact placeholder into the prose: [MISSING — HUMAN REVIEW REQUIRED: {{field_name}}].
+4. Tone and language: Write in a formal, legalistic, and objective register consistent with SEBI filings. Avoid subjective or promotional language. Words such as "robust", "cutting-edge", "seamless", "leading", "innovative", "ecosystem", "best-in-class", and "strategic" should not appear.
 
-5. ZERO MARKETING LANGUAGE: Write in a dry, formal, legalistic, and objective tone. Completely ban subjective adjectives. Do NOT use words like "robust", "cutting-edge", "seamless", "leading", "innovative", "ecosystem", "best-in-class", or "strategic".
+5. Format: Write 400–600 words in continuous prose paragraphs. No bullet points or numbered lists. Use passive voice and third person ("The Company..."). Use defined terms in capital letters where appropriate (e.g., "Equity Shares", "Promoters", "Subsidiaries").
 
-6. FORMAT: Target 400–600 words in continuous prose paragraphs. No bullet points, no numbered lists. Use passive voice and third person ("The Company..."). Use defined terms in ALL CAPS (e.g., "Equity Shares", "Promoters", "Subsidiaries").
-
-Write the subsection now:"""
+Please write the subsection now:"""
 
 
 # ---------------------------------------------------------------------------

@@ -129,24 +129,25 @@ def _build_extraction_prompt(
     schema_display = {k: v for k, v in schema.items()}
     schema_json = json.dumps(schema_display, indent=2, ensure_ascii=False)
 
-    return f"""You are extracting structured facts from raw document chunks for a DRHP Business Overview section.
+    return f"""You are a document analyst helping prepare a DRHP (Draft Red Herring Prospectus) Business Overview section.
 
-SUBSECTION: {subsection_name}
+Subsection: {subsection_name}
 
-RAW DOCUMENT CHUNKS:
+Document chunks:
 ---
 {chunks_text}
 ---
 
-TASK:
-Extract all facts relevant to the "{subsection_name}" subsection of a DRHP Business Overview.
-Return ONLY a valid JSON object matching the schema below.
-For every fact you extract, record the source_file (filename) and source_page (integer page number) it came from.
-If a field cannot be found in the chunks, set its value to null (or [] for list fields).
-Do NOT invent or infer facts not explicitly present in the chunks above.
-Use the "other_facts" array to capture any relevant facts not covered by the predefined fields.
+Please read the document chunks above and extract all facts relevant to the "{subsection_name}" subsection.
 
-REQUIRED JSON SCHEMA:
+Guidelines:
+- Return a valid JSON object that matches the schema provided below.
+- For each fact extracted, include the source_file (filename) and source_page (integer page number) where it appears.
+- If a field is not found in the chunks, set its value to null (or [] for list fields).
+- Only include facts that are explicitly present in the chunks. Avoid adding information not found in the text.
+- Use the "other_facts" array for any relevant facts not covered by the predefined fields.
+
+JSON schema to follow:
 {schema_json}"""
 
 
